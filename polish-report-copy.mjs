@@ -1,27 +1,15 @@
-import fs from'node:fs';import path from'node:path';
+import fs from'node:fs';
+import path from'node:path';
 import{buildWeeklyInsights,renderWeeklyInsights}from'./weekly-insights.mjs';
-const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/,'$1')),dir=path.join(root,'reports');
+const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/,'$1')),dir=path.join(root,'reports'),dataDir=path.join(root,'data');
 const latest=fs.readdirSync(dir).filter(x=>/^\d{4}-\d{2}-\d{2}-issue-first\.html$/.test(x)).sort().at(-1);if(!latest)throw Error('REPORT_TO_POLISH_NOT_FOUND');
 const file=path.join(dir,latest);let html=fs.readFileSync(file,'utf8');
-const replacements=[
-  [/프룻킹 데일리 블로그/g,'오늘의 건강 이슈와 블로그 원고'],
-  ['FRUITKING DAILY EDITORIAL','오늘의 건강 이슈'],
-  ['전일 이슈를<br>읽을 만한 건강 글로','사람들이 많이 본 이야기,<br>오늘 읽을 건강 글'],
-  ['커뮤니티와 건강·방송 리서치를 함께 검토하고, 원문 사실·조회 근거·검색 의도·공식 자료·프룻킹 USP가 이어지는 후보만 자동 선정했습니다.','커뮤니티와 방송에서 반응이 컸던 이야기 중, 원문과 조회 흐름을 확인하고 건강 정보로 자연스럽게 풀 수 있는 주제를 골랐습니다.'],
-  [/SELECTED (\d)/g,'오늘 원고 $1'],
-  ['원문 줄거리','화제가 된 내용'],
-  ['원문 URL ↗','화제가 된 원문 ↗'],
-  ['확인 속도 /20','조회 증가 /20'],
-  ['조회·순위 /15','조회와 순위 /15'],
-  ['원문 검증 /20','원문 확인 /20'],
-  ['직접 연결 /15','주제 연결 /15'],
-  ['검색·근거·USP /20','검색·자료·브랜드 /20'],
-  ['국내 공식 근거 3개','참고한 국내 공식 자료'],
-  ['이 주제만을 위한 추천 이미지 5개','글에 넣을 이미지 5장'],
-  ['검토 후 제외','이번 발행에서 제외한 주제'],
-  ['후보·URL','후보와 원문'],
-  ['제외 이유','이번에 고르지 않은 이유']
-];
+const replacements=[[/프룻킹 데일리 블로그/g,'오늘의 건강 이슈와 블로그 원고'],['FRUITKING DAILY EDITORIAL','오늘의 건강 이슈'],['전일 이슈를<br>읽을 만한 건강 글로','사람들이 많이 본 이야기,<br>오늘 읽을 건강 글'],['커뮤니티와 건강·방송 리서치를 함께 검토하고, 원문 사실·조회 근거·검색 의도·공식 자료·프룻킹 USP가 이어지는 후보만 자동 선정했습니다.','커뮤니티와 방송에서 반응이 컸던 이야기 중, 원문과 조회 흐름을 확인하고 건강 정보로 자연스럽게 풀 수 있는 주제를 골랐습니다.'],[/SELECTED (\d)/g,'오늘 원고 $1'],['원문 줄거리','화제가 된 내용'],['원문 URL ↗','화제가 된 원문 ↗'],['확인 속도 /20','조회 증가 /20'],['조회·순위 /15','조회와 순위 /15'],['원문 검증 /20','원문 확인 /20'],['직접 연결 /15','주제 연결 /15'],['검색·근거·USP /20','검색·자료·브랜드 /20'],['국내 공식 근거 3개','참고한 국내 공식 자료'],['이 주제만을 위한 추천 이미지 5개','글에 넣을 이미지 5장'],['검토 후 제외','이번 발행에서 제외한 주제'],['후보·URL','후보와 원문'],['제외 이유','이번에 고르지 않은 이유']];
 for(const[from,to]of replacements)html=html.replaceAll(from,to);
-const reportDate=latest.slice(0,10),weekly=renderWeeklyInsights(buildWeeklyInsights(reportDate,root)),weeklyCss=`.weekly{margin-top:48px}.weekly-notice{padding:15px 18px;border-radius:14px;background:#fff4d8;border-left:5px solid #dca51c;font-weight:800}.weekly-title{margin:28px 0 12px;font-size:23px}.weekly-keywords{display:grid;grid-template-columns:1fr 1fr;gap:10px}.weekly-keywords article{display:grid;grid-template-columns:58px 1fr;gap:13px;margin:0;padding:18px;border-radius:16px;background:#f4f8f7}.weekly-keywords i{font-style:normal;color:var(--green);font-weight:900}.weekly-keywords h3{margin:0}.weekly-keywords p{margin:4px 0;color:var(--muted);font-size:13px}.weekly-keywords a{margin-right:8px;font-size:12px}.weekly-themes{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.weekly-themes article{margin:0;padding:18px;border-radius:16px;background:#102c43;color:#fff}.weekly-themes span,.weekly-themes small{color:#9adfd4;font-size:11px;font-weight:800}.weekly-themes h3{font-size:17px;line-height:1.4}.weekly-themes p{color:#d7e6eb;font-size:12px}.weekly-themes b{display:inline-block;margin:2px;padding:4px 7px;border-radius:999px;background:#ffffff1c;font-size:11px}@media(max-width:760px){.weekly-keywords,.weekly-themes{grid-template-columns:1fr}}`;
-html=html.replace('</style></head>',`${weeklyCss}</style></head>`).replace('</main>',`${weekly}</main>`);fs.writeFileSync(file,html);console.log(`polished copy: ${latest}`);
+const reportDate=latest.slice(0,10),insights=buildWeeklyInsights(reportDate,root),previousFile=fs.readdirSync(dataDir).filter(x=>/^\d{4}-\d{2}-\d{2}-weekly-insights\.json$/.test(x)&&x<`${reportDate}-weekly-insights.json`).sort().at(-1),previous=previousFile?JSON.parse(fs.readFileSync(path.join(dataDir,previousFile),'utf8')):null;
+for(const keyword of insights.keywords){if(insights.completeDays<3){keyword.state='관찰';continue}const old=previous?.keywords?.find(x=>x.keyword===keyword.keyword);keyword.state=!old?'NEW':keyword.score>=old.score+5?'▲ 상승':keyword.score<=old.score-5?'▼ 하락':'● 유지';keyword.changeReason=!old?'전일 분석에 없던 새 키워드':keyword.state==='▲ 상승'?`누적 점수 ${old.score}→${keyword.score}`:keyword.state==='▼ 하락'?`누적 점수 ${old.score}→${keyword.score}`:`누적 점수 ${keyword.score} 유지`;}
+fs.writeFileSync(path.join(dataDir,`${reportDate}-weekly-insights.json`),JSON.stringify({...insights,generatedAt:new Date().toISOString(),previousSnapshot:previousFile||null},null,2)+'\n');
+const weekly=renderWeeklyInsights(insights),weeklyCss=`.weekly{margin-top:48px}.weekly-notice{padding:15px 18px;border-radius:14px;background:#fff4d8;border-left:5px solid #dca51c;font-weight:800}.weekly-title{margin:28px 0 12px;font-size:23px}.weekly-keywords{display:grid;grid-template-columns:1fr 1fr;gap:10px}.weekly-keywords article{display:grid;grid-template-columns:58px 1fr;gap:13px;margin:0;padding:18px;border-radius:16px;background:#f4f8f7}.weekly-keywords i{font-style:normal;color:var(--green);font-weight:900}.weekly-keywords h3{margin:0}.weekly-row{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.weekly-row span,.weekly-row small{padding:3px 7px;border-radius:999px;background:#dff4ee;font-size:11px;font-weight:850}.weekly-keywords p{margin:4px 0;color:var(--muted);font-size:13px}.weekly-keywords a{margin-right:8px;font-size:12px}.weekly-themes{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.weekly-themes article{margin:0;padding:18px;border-radius:16px;background:#102c43;color:#fff}.weekly-themes span,.weekly-themes small{color:#9adfd4;font-size:11px;font-weight:800}.weekly-themes h3{font-size:17px;line-height:1.4}.weekly-themes p{color:#d7e6eb;font-size:12px}.weekly-themes b{display:inline-block;margin:2px;padding:4px 7px;border-radius:999px;background:#ffffff1c;font-size:11px}@media(max-width:760px){.weekly-keywords,.weekly-themes{grid-template-columns:1fr}}`;
+html=html.replace('</style></head>',`${weeklyCss}</style></head>`).replace('</main>',`${weekly}</main>`);fs.writeFileSync(file,html);
+const mdFile=path.join(dir,latest.replace('.html','.md'));if(fs.existsSync(mdFile)){let md=fs.readFileSync(mdFile,'utf8').replace(/\n<!-- WEEKLY_INSIGHTS -->[\s\S]*$/,'');md+=`\n<!-- WEEKLY_INSIGHTS -->\n\n## 최근 7일 주요 키워드와 확장 테마\n\n- 커뮤니티 ${insights.communityDays}/7일 · 건강주제 ${insights.healthDays}/7일 · 통합 ${insights.completeDays}/7일\n${insights.keywords.map(k=>`- ${k.keyword}: ${k.state} · ${k.days}일 · ${k.sources}개 출처`).join('\n')}\n\n### 인접 주제 확장\n\n${insights.themes.map(t=>`- ${t.core} → ${t.adjacent.join(' · ')} (${t.origin})`).join('\n')}\n`;fs.writeFileSync(mdFile,md)}
+console.log(`polished copy: ${latest}`);
