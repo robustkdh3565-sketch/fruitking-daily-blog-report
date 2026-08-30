@@ -1,17 +1,12 @@
-import fs from "node:fs";
-
-const file = new URL("./data/2026-08-30-verified-sources.json", import.meta.url);
-const data = JSON.parse(fs.readFileSync(file, "utf8"));
-if (!data.checkedAt || !Array.isArray(data.selected) || !Array.isArray(data.rejected)) throw new Error("VERIFIED_SOURCE_STRUCTURE_INVALID");
-if (data.selected.length > 3) throw new Error("SELECTED_SOURCE_LIMIT_EXCEEDED");
-for (const [index, source] of data.selected.entries()) {
-  for (const field of ["community", "title", "url", "story"]) if (!source[field]) throw new Error(`VERIFIED_SOURCE_FIELD_MISSING selected[${index}].${field}`);
-  if (!/^https:\/\//.test(source.url)) throw new Error(`VERIFIED_SOURCE_URL_INVALID selected[${index}]`);
-  if (source.story.trim().length < 80) throw new Error(`VERIFIED_SOURCE_STORY_TOO_SHORT selected[${index}]`);
-  if (source.verified !== true) throw new Error(`VERIFIED_SOURCE_NOT_CONFIRMED selected[${index}]`);
-  if (!Array.isArray(source.reactions) || source.reactions.length < 2) throw new Error(`VERIFIED_SOURCE_REACTIONS_MISSING selected[${index}]`);
+import fs from'node:fs';import path from'node:path';
+const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/,'$1')),dir=path.join(root,'data');
+const latest=fs.readdirSync(dir).filter(x=>/^\d{4}-\d{2}-\d{2}-daily-report\.json$/.test(x)).sort().at(-1);if(!latest)throw Error('DAILY_REPORT_NOT_FOUND');
+const data=JSON.parse(fs.readFileSync(path.join(dir,latest),'utf8'));if(!Array.isArray(data.researchLineage)||data.researchLineage.length<3)throw Error('RESEARCH_LINEAGE_MISSING');
+for(const[i,s]of data.researchLineage.entries())if(!/^https:\/\//.test(s.url)||!s.result)throw Error(`LINEAGE_INVALID ${i}`);
+for(const[i,c]of data.candidates.entries()){
+ if(!/^https:\/\//.test(c.url)||!c.sourceBodyVerified||!c.synopsisVerified||String(c.synopsis).trim().length<80)throw Error(`SOURCE_VERIFICATION_INVALID ${i}`);
+ if(c.velocityObserved===true&&(!Number.isFinite(c.viewVelocity)||!Array.isArray(c.snapshotRefs)||c.snapshotRefs.length<2))throw Error(`VELOCITY_LINEAGE_INVALID ${i}`);
+ if(c.velocityObserved!==true&&Number(c.viewVelocityPercentile)>0)throw Error(`UNOBSERVED_VELOCITY_SCORED ${i}`);
+ if(!c.optimizedTitle||!c.searchIntent||c.hashtags.length<6||c.hashtags.length>10)throw Error(`SEO_RECORD_INVALID ${i}`);
 }
-for (const [index, source] of data.rejected.entries()) {
-  if (!/^https:\/\//.test(source.url || "") || String(source.reason || "").length < 20) throw new Error(`REJECTED_SOURCE_REASON_INVALID rejected[${index}]`);
-}
-console.log("verified source records passed");
+console.log(`latest source records passed: ${latest}`);
