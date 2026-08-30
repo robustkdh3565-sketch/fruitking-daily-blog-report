@@ -1,19 +1,34 @@
 {
-  "reportDate":"2026-08-30","checkedAt":"2026-08-30T19:45:00+09:00","snapshotCount":3,"assetManifest":"data/2026-08-30-sources.json",
+  "reportDate":"2026-08-30","checkedAt":"2026-08-30T19:45:00+09:00","snapshotCount":3,"assetManifest":"data/2026-08-30-sources.json","pipelinePolicy":{"publicationHourKst":12,"confirmedSnapshotRule":"previous-day-11-15-19","morningSnapshotUse":"same-day-breaking-candidates-only","minimumWatchlist":10,"stopOnValidationFailure":true,"preventRepeatedTopicDays":7},
   "researchLineage":[
     {"name":"커뮤니티 리서치 2026-08-30","result":"전체 관리 커뮤니티의 대표글·조회수·댓글·순위를 후보로 검토","url":"https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-08-30.html"},
     {"name":"건강·방송 주제 리서치 2026-08-30","result":"방송사·프로그램·회차·방송일과 국내 공식 건강 근거를 함께 검토","url":"https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-08-30.html"},
     {"name":"11·15·19시 게시물 ID 스냅샷","result":"동일 게시물 ID가 두 시점 이상 연결된 경우에만 조회 증가속도 점수 부여","url":"https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots/2026-08-30"}
   ],
   "likelyTopicPolicy":{"threshold":75,"weights":{"verifiedMomentum":30,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":15,"immediateActionOrUrgency":15,"searchExpansion":10,"fruitkingConnection":10},"note":"75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."},
-  "likelyTopicFlags":[
-    {"priority":1,"score":91,"reason":"인지도 높은 인물의 전후 변화와 실제 순위·조회 증가가 동시에 확인됨"},
-    {"priority":2,"score":88,"reason":"유명인·18kg·5개월이라는 구체적 숫자와 방송 노출이 결합됨"},
-    {"priority":3,"score":85,"reason":"조회 5만·댓글 500 수준의 반응과 바로 따라 할 수 있는 행동성이 확인됨"},
-    {"priority":4,"score":82,"reason":"혈변이라는 절박한 증상과 대장내시경이라는 명확한 검색 행동이 연결됨"},
-    {"priority":5,"score":80,"reason":"선우용여 인지도와 뇌경색·치매·가족 간병이 여러 방송에서 반복됨"},
-    {"priority":6,"score":78,"reason":"젓가락질이라는 익숙한 행동과 팔 저림·수술 검색 증가가 결합됨"},
-    {"priority":9,"score":77,"reason":"빠른 조회 증가와 누구나 이해할 수 있는 생활 공감 소재가 확인됨"}
+  "watchlistPredictionInputs":[
+    {"priority":1,"signals":{"verifiedMomentum":30,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":15,"immediateActionOrUrgency":10,"searchExpansion":8,"fruitkingConnection":8},"reason":"인지도 높은 인물의 전후 변화와 실제 순위·조회 증가가 동시에 확인됨"},
+    {"priority":2,"signals":{"verifiedMomentum":25,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":15,"immediateActionOrUrgency":10,"searchExpansion":10,"fruitkingConnection":8},"reason":"유명인·18kg·5개월이라는 구체적 숫자와 방송 노출이 결합됨"},
+    {"priority":3,"signals":{"verifiedMomentum":30,"celebrityOrBroadcast":10,"specificNumberOrBeforeAfter":10,"immediateActionOrUrgency":15,"searchExpansion":10,"fruitkingConnection":10},"reason":"조회 5만·댓글 500 수준의 반응과 바로 따라 할 수 있는 행동성이 확인됨"},
+    {"priority":4,"signals":{"verifiedMomentum":22,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":5,"immediateActionOrUrgency":15,"searchExpansion":10,"fruitkingConnection":10},"reason":"혈변이라는 절박한 증상과 대장내시경이라는 명확한 검색 행동이 연결됨"},
+    {"priority":5,"signals":{"verifiedMomentum":20,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":10,"immediateActionOrUrgency":10,"searchExpansion":10,"fruitkingConnection":10},"reason":"선우용여 인지도와 뇌경색·치매·가족 간병이 여러 방송에서 반복됨"},
+    {"priority":6,"signals":{"verifiedMomentum":18,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":5,"immediateActionOrUrgency":15,"searchExpansion":10,"fruitkingConnection":10},"reason":"젓가락질이라는 익숙한 행동과 팔 저림·수술 검색 증가가 결합됨"},
+    {"priority":7,"signals":{"verifiedMomentum":8,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":10,"immediateActionOrUrgency":10,"searchExpansion":8,"fruitkingConnection":9},"reason":"중장년 건강 수요는 있지만 당일 확산과 검색 증가가 충분하지 않음"},
+    {"priority":8,"signals":{"verifiedMomentum":8,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":5,"immediateActionOrUrgency":8,"searchExpansion":8,"fruitkingConnection":8},"reason":"인지도는 높지만 건강 수치와 검색 행동이 구체적이지 않음"},
+    {"priority":9,"signals":{"verifiedMomentum":27,"celebrityOrBroadcast":10,"specificNumberOrBeforeAfter":5,"immediateActionOrUrgency":15,"searchExpansion":10,"fruitkingConnection":10},"reason":"빠른 조회 증가와 누구나 이해할 수 있는 생활 공감 소재가 확인됨"},
+    {"priority":10,"signals":{"verifiedMomentum":12,"celebrityOrBroadcast":5,"specificNumberOrBeforeAfter":5,"immediateActionOrUrgency":15,"searchExpansion":8,"fruitkingConnection":3},"reason":"절박성은 크지만 원문 검증과 프룻킹 연결이 부족함"}
+  ],
+  "watchlistSourceAudits":[
+    {"priority":1,"publishedAt":"2026-08-30","sourceBodyVerified":false,"metricsStatus":"조회·순위 확인, 감량 방법 미확인"},
+    {"priority":2,"publishedAt":"2026-08-23","sourceBodyVerified":true,"metricsStatus":"방송 내용·감량 수치 확인, 기사 조회 미공개"},
+    {"priority":3,"publishedAt":"2026-08-30","sourceBodyVerified":true,"metricsStatus":"조회·댓글 확인"},
+    {"priority":4,"publishedAt":"2026-08-27","sourceBodyVerified":true,"metricsStatus":"방송 원문 확인, VOD 조회 미수집"},
+    {"priority":5,"publishedAt":"2026-08-29","sourceBodyVerified":true,"metricsStatus":"방송 내용 확인, 기사 조회 미공개"},
+    {"priority":6,"publishedAt":"2026-08-26","sourceBodyVerified":true,"metricsStatus":"방송 내용 확인, 검색 상승 확인"},
+    {"priority":7,"publishedAt":"2026-08-25","sourceBodyVerified":true,"metricsStatus":"방송 원문 확인, VOD 조회 미수집"},
+    {"priority":8,"publishedAt":"2026-08-28","sourceBodyVerified":true,"metricsStatus":"방송 내용 확인, 조회 미공개"},
+    {"priority":9,"publishedAt":"2026-08-30","sourceBodyVerified":true,"metricsStatus":"조회·추정 속도 확인"},
+    {"priority":10,"publishedAt":"2026-08-30","sourceBodyVerified":false,"metricsStatus":"목록 조회 확인, 사례 사실 추가 확인 필요"}
   ],
   "missedCandidates":[
     {"priority":1,"type":"연예인 변화","channel":"네이트판","title":"방시혁 최근 체중 변화","url":"https://pann.nate.com/talk/375599315","topic":"유명인 감량 사진, 건강한 체중 감량 기준으로 읽는 법","summary":"사진만으로 감량 방법은 확인할 수 없지만 짧은 시간에 조회가 빠르게 늘고 순위도 상승했다. 인물 인지도와 전후 비교 이미지가 강해 후속 인터뷰나 식단 정보가 나오면 최우선 재검토한다.","why":"유명인 + 눈에 보이는 전후 변화 + 감량법 궁금증"},
