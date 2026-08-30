@@ -1,4 +1,5 @@
 import fs from'node:fs';import path from'node:path';
+import{buildWeeklyInsights,renderWeeklyInsights}from'./weekly-insights.mjs';
 const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/,'$1')),dir=path.join(root,'reports');
 const latest=fs.readdirSync(dir).filter(x=>/^\d{4}-\d{2}-\d{2}-issue-first\.html$/.test(x)).sort().at(-1);if(!latest)throw Error('REPORT_TO_POLISH_NOT_FOUND');
 const file=path.join(dir,latest);let html=fs.readFileSync(file,'utf8');
@@ -21,4 +22,6 @@ const replacements=[
   ['후보·URL','후보와 원문'],
   ['제외 이유','이번에 고르지 않은 이유']
 ];
-for(const[from,to]of replacements)html=html.replaceAll(from,to);fs.writeFileSync(file,html);console.log(`polished copy: ${latest}`);
+for(const[from,to]of replacements)html=html.replaceAll(from,to);
+const reportDate=latest.slice(0,10),weekly=renderWeeklyInsights(buildWeeklyInsights(reportDate,root)),weeklyCss=`.weekly{margin-top:48px}.weekly-notice{padding:15px 18px;border-radius:14px;background:#fff4d8;border-left:5px solid #dca51c;font-weight:800}.weekly-title{margin:28px 0 12px;font-size:23px}.weekly-keywords{display:grid;grid-template-columns:1fr 1fr;gap:10px}.weekly-keywords article{display:grid;grid-template-columns:58px 1fr;gap:13px;margin:0;padding:18px;border-radius:16px;background:#f4f8f7}.weekly-keywords i{font-style:normal;color:var(--green);font-weight:900}.weekly-keywords h3{margin:0}.weekly-keywords p{margin:4px 0;color:var(--muted);font-size:13px}.weekly-keywords a{margin-right:8px;font-size:12px}.weekly-themes{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.weekly-themes article{margin:0;padding:18px;border-radius:16px;background:#102c43;color:#fff}.weekly-themes span,.weekly-themes small{color:#9adfd4;font-size:11px;font-weight:800}.weekly-themes h3{font-size:17px;line-height:1.4}.weekly-themes p{color:#d7e6eb;font-size:12px}.weekly-themes b{display:inline-block;margin:2px;padding:4px 7px;border-radius:999px;background:#ffffff1c;font-size:11px}@media(max-width:760px){.weekly-keywords,.weekly-themes{grid-template-columns:1fr}}`;
+html=html.replace('</style></head>',`${weeklyCss}</style></head>`).replace('</main>',`${weekly}</main>`);fs.writeFileSync(file,html);console.log(`polished copy: ${latest}`);
