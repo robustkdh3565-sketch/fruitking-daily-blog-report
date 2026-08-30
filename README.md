@@ -27,4 +27,6 @@
 
 `npm run check`는 발행 전날 11·15·19시 스냅샷에서 건강 연관 후보 풀을 자동 생성해 `data/YYYY-MM-DD-auto-candidates.json`으로 보존합니다. 최종 후보는 이 풀에서 발견됐거나 원문 본문을 별도로 검증해 사실 요약을 두 개 이상 기록한 경우에만 통과합니다. 검증 결과는 해시와 함께 `data/YYYY-MM-DD-source-evidence.json`에 저장되며, 후보 수·URL·중복·반복 주제·원문 근거 중 하나라도 기준을 통과하지 못하면 HTML 생성과 이후 배포를 중단합니다.
 
+후보의 조회 성과는 커뮤니티 크기 차이를 줄이기 위해 같은 커뮤니티·같은 게시 경과시간 구간의 백분위로 비교합니다. 발행 성과는 `data/publication-performance.json`에 누적하며 30건 전에는 운영 가중치를 바꾸지 않습니다. 30건 이상이면 Spearman 상관계수와 Ridge 회귀계수로 월별 제안값만 만들고, 검토 없이 자동 적용하지 않습니다.
+
 제품 구매 링크는 [`PURCHASE_LINKS.md`](PURCHASE_LINKS.md)에 지정된 스마트스토어 URL 두 개만 사용합니다.

@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root = path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/, '$1'));
+const input = process.argv[2];
+if (!input) throw Error('USAGE: node record-publication-performance.mjs <outcome.json>');
+const record = JSON.parse(fs.readFileSync(path.resolve(input), 'utf8'));
+for (const field of ['reportDate','topicKey','publishedUrl']) if (!record[field]) throw Error(`PERFORMANCE_FIELD_MISSING ${field}`);
+if (!record.features || !record.outcome) throw Error('PERFORMANCE_SCORE_OR_OUTCOME_MISSING');
+for (const field of ['views24h','searchVisits24h']) if (!Number.isFinite(record.outcome[field])) throw Error(`PERFORMANCE_OUTCOME_MISSING ${field}`);
+const file = path.join(root, 'data', 'publication-performance.json'), data = JSON.parse(fs.readFileSync(file, 'utf8'));
+const key = `${record.reportDate}:${record.topicKey}`, index = data.records.findIndex((row) => `${row.reportDate}:${row.topicKey}` === key);
+if (index >= 0) data.records[index] = record; else data.records.push(record);
+fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`);
+console.log(`publication performance recorded: ${key}`);
