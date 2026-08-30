@@ -1,14 +1,10 @@
 import assert from "node:assert/strict";
-import { scoreIssueCandidate, selectTopThree } from "./selection-score.mjs";
-
-const strong = {
-  topicKey: "strong", publishedAt: "2026-08-30T09:00:00+09:00", url: "https://example.com/1",
-  ageHours: 20, viewsCollected: true, platformRank: 1, viewVelocityPercentile: 0.95,
-  viewCountPercentile: 0.9, engagementPercentile: 0.8, crossChannelCount: 3,
-  searchIntentScore: 13, healthUspScore: 8, officialEvidenceScore: 9,
-};
-assert.equal(scoreIssueCandidate(strong).eligible, true);
-assert.equal(scoreIssueCandidate({ ...strong, viewsCollected: false, platformRank: undefined, crossChannelCount: 1 }).eligible, false);
-assert.equal(scoreIssueCandidate({ ...strong, ageHours: 60, crossChannelCount: 1 }).eligible, false);
-assert.equal(selectTopThree([strong, { ...strong, topicKey: "two", viewVelocityPercentile: 0.8 }]).length, 2);
-console.log("issue-first selection tests passed");
+import { scoreVerifiedCandidate, selectTopThree } from "./selection-score.mjs";
+const strong = { topicKey:"strong", publishedAt:"2026-08-30T09:00:00+09:00", url:"https://example.com/1", ageHours:20, viewsCollected:true, platformRank:1, viewVelocityPercentile:.95, viewCountPercentile:.9, engagementPercentile:.9, sourceBodyVerified:true, synopsisVerified:true, factOpinionSeparated:true, reactionsVerified:true, synopsis:"원문의 사건과 등장인물, 실제 주장, 확인된 수치, 반복된 주요 반응과 확인할 수 없는 범위를 분리해 저장한 80자 이상의 검증 줄거리입니다. 독자가 오해할 수 있는 부분도 구분했습니다.", directHealthLinkScore:10, titleIntroMatchScore:5, bodyReconnectScore:5, searchSolutionScore:10, officialEvidenceScore:5 };
+assert.equal(scoreVerifiedCandidate(strong).eligible, true);
+assert.equal(scoreVerifiedCandidate({ ...strong, sourceBodyVerified:false }).eligible, false);
+assert.equal(scoreVerifiedCandidate({ ...strong, synopsis:"짧은 제목 추정" }).eligible, false);
+assert.equal(scoreVerifiedCandidate({ ...strong, directHealthLinkScore:3, titleIntroMatchScore:2, bodyReconnectScore:2 }).eligible, false);
+assert.equal(scoreVerifiedCandidate({ ...strong, ageHours:60 }).eligible, false);
+assert.equal(selectTopThree([strong, { ...strong, topicKey:"two", viewVelocityPercentile:.8 }]).length, 2);
+console.log("source-verified selection tests passed");
