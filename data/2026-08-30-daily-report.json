@@ -1,5 +1,5 @@
 {
-  "reportDate":"2026-08-30","checkedAt":"2026-08-30T19:45:00+09:00","snapshotCount":3,"assetManifest":"data/2026-08-30-sources.json","pipelinePolicy":{"publicationHourKst":12,"confirmedSnapshotRule":"previous-day-11-15-19","morningSnapshotUse":"same-day-breaking-candidates-only","minimumWatchlist":10,"stopOnValidationFailure":true,"preventRepeatedTopicDays":7},
+  "reportDate":"2026-08-30","checkedAt":"2026-08-30T19:45:00+09:00","snapshotCount":3,"assetManifest":"data/2026-08-30-sources.json","pipelinePolicy":{"publicationHourKst":12,"confirmedSnapshotRule":"previous-day-11-15-19","previousDayRuleEffectiveFrom":"2026-08-31","morningSnapshotUse":"same-day-breaking-candidates-only","minimumWatchlist":10,"stopOnValidationFailure":true,"preventRepeatedTopicDays":7},
   "researchLineage":[
     {"name":"커뮤니티 리서치 2026-08-30","result":"전체 관리 커뮤니티의 대표글·조회수·댓글·순위를 후보로 검토","url":"https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-08-30.html"},
     {"name":"건강·방송 주제 리서치 2026-08-30","result":"방송사·프로그램·회차·방송일과 국내 공식 건강 근거를 함께 검토","url":"https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-08-30.html"},
@@ -29,6 +29,13 @@
     {"priority":8,"publishedAt":"2026-08-28","sourceBodyVerified":true,"metricsStatus":"방송 내용 확인, 조회 미공개"},
     {"priority":9,"publishedAt":"2026-08-30","sourceBodyVerified":true,"metricsStatus":"조회·추정 속도 확인"},
     {"priority":10,"publishedAt":"2026-08-30","sourceBodyVerified":false,"metricsStatus":"목록 조회 확인, 사례 사실 추가 확인 필요"}
+  ],
+  "selectedSourceAudits":[
+    {"topicKey":"early-sugar","sourceBodyVerified":true,"verificationMethod":"커뮤니티 원문과 연결 기사 본문 대조","checkedAt":"2026-08-30T19:45:00+09:00","publishedAt":"2026-08-30T10:42:00+09:00","metricsStatus":"15시·19시 동일 게시물 스냅샷에서 조회수와 댓글 확인","excerptFacts":["영국 설탕 배급제 전후 출생자 6만4761명의 장기 결과를 비교했다.","연구 결과를 설탕의 절대 금지로 해석하면 안 된다는 설명이 포함됐다."]},
+    {"topicKey":"mounjaro-maintenance","sourceBodyVerified":true,"verificationMethod":"커뮤니티 원문 본문·공유 영상 설명·게시물 그래프 확인","checkedAt":"2026-08-30T19:45:00+09:00","publishedAt":"2026-08-30T16:36:00+09:00","metricsStatus":"19시 원문 화면에서 조회수와 댓글 확인, 시계열 속도는 미수집","excerptFacts":["비만 치료제 중단 뒤 체중 재증가 가능성을 다룬 의료인 영상과 그래프가 공유됐다.","집단 평균 결과만으로 개인의 투약 기간을 단정할 수 없어 진료 결정이 필요하다."]},
+    {"topicKey":"budget-breakfast","sourceBodyVerified":true,"verificationMethod":"커뮤니티 원문 사진·제목·가격 표기 확인","checkedAt":"2026-08-30T19:45:00+09:00","publishedAt":"2026-08-29T12:16:00+09:00","metricsStatus":"원문 조회수와 댓글 확인, 시계열 속도는 미수집","excerptFacts":["이케아의 990원 아침식사 실물 사진과 가격을 소개한 게시물이다.","저렴한 가격과 실제 구성에 대한 이용자 반응이 이어졌다."]},
+    {"topicKey":"back-pillow","sourceBodyVerified":true,"verificationMethod":"커뮤니티 원문 본문과 공유된 자세 설명 확인","checkedAt":"2026-08-30T19:45:00+09:00","publishedAt":"2026-08-30T17:11:00+09:00","metricsStatus":"원문 조회수와 댓글 확인, 단일 시점이라 속도는 미수집","excerptFacts":["침대에서 베개를 받치고 약 5분 누워 있는 허리 자세 팁을 소개했다.","댓글에는 체감 경험과 디스크 환자의 안전성 질문이 함께 나타났다."]},
+    {"topicKey":"broadcast-colon","sourceBodyVerified":true,"verificationMethod":"SBS 프로그램 VOD 페이지의 프로그램명·원문 ID·방송 내용 확인","checkedAt":"2026-08-30T19:45:00+09:00","publishedAt":"2026-08-27T09:00:00+09:00","metricsStatus":"방송 원문 확인, 공개 VOD 조회수는 미수집","excerptFacts":["SBS 좋은아침 관련 VOD에서 대장 건강과 생활 관리 내용을 다뤘다.","공개 조회수를 확인할 수 없어 조회 성과 점수에는 반영하지 않았다."]}
   ],
   "missedCandidates":[
     {"priority":1,"type":"연예인 변화","channel":"네이트판","title":"방시혁 최근 체중 변화","url":"https://pann.nate.com/talk/375599315","topic":"유명인 감량 사진, 건강한 체중 감량 기준으로 읽는 법","summary":"사진만으로 감량 방법은 확인할 수 없지만 짧은 시간에 조회가 빠르게 늘고 순위도 상승했다. 인물 인지도와 전후 비교 이미지가 강해 후속 인터뷰나 식단 정보가 나오면 최우선 재검토한다.","why":"유명인 + 눈에 보이는 전후 변화 + 감량법 궁금증"},

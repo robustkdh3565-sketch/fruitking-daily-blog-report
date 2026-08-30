@@ -25,4 +25,6 @@
 
 당일 후보는 `data/YYYY-MM-DD-daily-report.json`에 저장합니다. `npm run build`는 후보 전부를 자동 채점하고 통과한 최대 3개만 골라 원문 줄거리, 점수, 키워드·해시태그, 공식 근거 3개, 추천 이미지 5개와 완성 원고를 하나의 HTML로 생성합니다. 다른 날짜 입력은 `DAILY_REPORT_DATA` 환경변수로 지정할 수 있습니다.
 
+`npm run check`는 발행 전날 11·15·19시 스냅샷에서 건강 연관 후보 풀을 자동 생성해 `data/YYYY-MM-DD-auto-candidates.json`으로 보존합니다. 최종 후보는 이 풀에서 발견됐거나 원문 본문을 별도로 검증해 사실 요약을 두 개 이상 기록한 경우에만 통과합니다. 검증 결과는 해시와 함께 `data/YYYY-MM-DD-source-evidence.json`에 저장되며, 후보 수·URL·중복·반복 주제·원문 근거 중 하나라도 기준을 통과하지 못하면 HTML 생성과 이후 배포를 중단합니다.
+
 제품 구매 링크는 [`PURCHASE_LINKS.md`](PURCHASE_LINKS.md)에 지정된 스마트스토어 URL 두 개만 사용합니다.
