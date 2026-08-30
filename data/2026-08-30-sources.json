@@ -1,0 +1,164 @@
+{
+  "reportDate": "2026-08-30",
+  "maxPrimaryAgeDays": 30,
+  "sources": {
+    "community-breakfast": {
+      "sourceId": "etoland-9297807",
+      "channel": "이토랜드",
+      "title": "990원 이케아 아침식사 실물",
+      "url": "https://etoland.co.kr/hit/etohumor07/view/990%EC%9B%90-%EC%9D%B4%EC%BC%80%EC%95%84-%EC%95%84%EC%B9%A8%EC%8B%9D%EC%82%AC-%EC%8B%A4%EB%AC%BC-jpg-9297807",
+      "publishedAt": "2026-08-29T12:16:00+09:00",
+      "collectedAt": "2026-08-30T12:00:00+09:00",
+      "primaryForDailyTrend": true,
+      "metrics": [["조회", "16,688"], ["추천", "98"], ["댓글", "65"]],
+      "healthEvidence": [
+        {"organization":"질병관리청 국가건강정보포털","type":"공식 건강정보","title":"식이영양","url":"https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6693","fact":"건강한 식사 패턴은 과일·채소·통곡물·저지방 유제품과 다양한 단백질 식품을 포함하고 포화지방·첨가당을 제한하는 방향이다.","articleUse":"아침 한 끼를 특정 식품 하나가 아니라 식사 구성으로 판단하는 기준"},
+        {"organization":"식품의약품안전처 식품안전나라","type":"공식 영양 데이터","title":"식품영양성분 데이터베이스(K-FIND)","url":"https://various.foodsafetykorea.go.kr/nutrient/industry/openApi/info.do","fact":"국내 식품의 에너지와 영양성분을 식품명·분류별로 확인할 수 있다.","articleUse":"가격이 비슷한 아침 식품의 열량·단백질·당류·나트륨 비교"},
+        {"organization":"식품의약품안전처","type":"표시 확인 기준","title":"영양표시 확인 안내","url":"https://www.foodsafetykorea.go.kr/upload/20180629/nutrition/content/20250729.pdf","fact":"영양표시는 1회 제공량과 총내용량을 구분하고 영양성분 및 1일 영양성분 기준치 비율을 비교하는 데 사용한다.","articleUse":"포장식품을 고를 때 총량과 1회 섭취량을 혼동하지 않는 체크 항목"}
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Home_prepared_yoghurt_and_muesli_with_berries.JPG",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Home_prepared_yoghurt_and_muesli_with_berries.JPG",
+          "alt": "과일과 뮤즐리를 곁들인 요구르트 아침 식사",
+          "placement": "‘5분 안에 준비하는 현실적인 조합’ 소제목 아래",
+          "license": "Wikimedia Commons · CC BY-SA 3.0"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Healthy_meal.jpg",
+          "alt": "채소와 연어, 감자와 베리로 구성된 한 끼",
+          "placement": "가격 외에 한 끼 구성을 설명하는 문단 아래",
+          "license": "Wikimedia Commons · CC BY-SA 4.0"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Breakfast_at_Ikea_Vantaa.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Breakfast_at_Ikea_Vantaa.jpg",
+          "alt": "이케아 매장에서 제공되는 아침 식사 구성",
+          "placement": "990원 아침 식사가 화제가 된 배경 설명 다음",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Berries_and_yogurt_in_the_breakfast_buffet_%2843696401755%29.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Berries_and_yogurt_in_the_breakfast_buffet_(43696401755).jpg",
+          "alt": "베리와 요구르트가 놓인 아침 뷔페",
+          "placement": "플레인 요구르트와 과일 조합 설명 아래",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Breakfast_Fruit_Oatmeal_%2845842057685%29.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Breakfast_Fruit_Oatmeal_(45842057685).jpg",
+          "alt": "과일을 곁들인 오트밀 아침 식사",
+          "placement": "주말 준비와 재료 활용 설명 아래",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        }
+      ]
+    },
+    "broadcast-weight": {
+      "sourceId": "imbc-515587",
+      "channel": "iMBC",
+      "title": "‘18kg 감량’ 황재균, 몰라보게 달라졌다",
+      "url": "https://enews.imbc.com/M/Detail/515587",
+      "publishedAt": "2026-08-23T02:00:00+09:00",
+      "broadcastAt": "2026-08-22T23:10:00+09:00",
+      "collectedAt": "2026-08-30T12:00:00+09:00",
+      "primaryForDailyTrend": true,
+      "metrics": [["기사 조회", "미공개"], ["감량", "18kg"], ["관련 회차", "412회"]],
+      "healthEvidence": [
+        {"organization":"질병관리청 국가건강정보포털","type":"공식 건강정보","title":"비만","url":"https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6694","fact":"일반적으로 6개월 동안 현재 체중의 5~10% 감량을 현실적인 초기 목표로 제시하며 식사·운동·행동요법을 함께 시행한다.","articleUse":"방송의 18kg 숫자를 개인에게 그대로 적용하지 않고 지속 가능한 목표로 바꾸는 기준"},
+        {"organization":"질병관리청 국가건강정보포털","type":"공식 건강정보","title":"근 손실","url":"https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6722","fact":"근력운동과 단백질 중심의 영양 섭취, 원인·동반 질환 관리가 근력과 신체 기능 개선에 도움이 될 수 있다.","articleUse":"감량 중 체중만이 아니라 근력과 신체 기능을 함께 확인하는 근거"},
+        {"organization":"식품의약품안전처 식품안전나라","type":"공식 영양 데이터","title":"식품영양성분 데이터베이스(K-FIND)","url":"https://various.foodsafetykorea.go.kr/nutrient/industry/openApi/info.do","fact":"식품별 에너지·단백질·지방·탄수화물과 미량영양소 정보를 비교할 수 있다.","articleUse":"감량 식단을 감으로 판단하지 않고 실제 식품의 단백질과 에너지 구성을 확인"}
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Woman_lifting_dumbbells_in_a_modern_gym_during_a_workout_session_focused_on_strength_training_and_fitness.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Woman_lifting_dumbbells_in_a_modern_gym_during_a_workout_session_focused_on_strength_training_and_fitness.jpg",
+          "alt": "헬스장에서 덤벨 근력 운동을 하는 사람",
+          "placement": "‘운동은 칼로리를 지우는 벌이 아닙니다’ 소제목 아래",
+          "license": "Wikimedia Commons · CC BY 2.0"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Healthy_meal.jpg",
+          "alt": "단백질과 채소가 함께 담긴 균형 잡힌 식사",
+          "placement": "감량 식단의 단백질과 채소 설명 사이",
+          "license": "Wikimedia Commons · CC BY-SA 4.0"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dumbells_and_free_weights_in_a_gym.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Dumbells_and_free_weights_in_a_gym.jpg",
+          "alt": "헬스장에 정리된 덤벨과 프리웨이트",
+          "placement": "근력 유지와 운동 계획 설명 아래",
+          "license": "Wikimedia Commons · CC BY-SA 4.0"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Strength_training_session_in_a_gym_focusing_on_leg_workouts_with_dumbbells_closeup.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Strength_training_session_in_a_gym_focusing_on_leg_workouts_with_dumbbells_closeup.jpg",
+          "alt": "덤벨을 이용한 하체 근력 운동 장면",
+          "placement": "초보자의 근력운동 실천 방법 아래",
+          "license": "Wikimedia Commons · CC BY 2.0"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal_prep_with_fresh_salad%2C_fruits%2C_and_planning_tools_displayed_on_a_table.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Healthy_meal_prep_with_fresh_salad,_fruits,_and_planning_tools_displayed_on_a_table.jpg",
+          "alt": "샐러드와 과일, 식단 계획 도구가 놓인 테이블",
+          "placement": "감량 뒤에도 유지할 식사 계획 설명 아래",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        }
+      ]
+    },
+    "health-colon": {
+      "sourceId": "22000634625",
+      "channel": "SBS 좋은아침",
+      "title": "대장 건강을 지키는 생활 조건과 검사 관심",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+      "publishedDateRange": ["2026-08-27", "2026-08-28"],
+      "collectedAt": "2026-08-30T12:00:00+09:00",
+      "primaryForDailyTrend": true,
+      "originReport": "../broadcast-topic-research/reports/2026-08-30.html",
+      "metrics": [["VOD 조회", "미수집"], ["원문 ID", "22000634625"], ["공개 범위", "8월 27~28일"]],
+      "healthEvidence": [
+        {"organization":"질병관리청 국가건강정보포털","type":"증상·검사 기준","title":"혈변 및 흑변(성인)","url":"https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5434","fact":"혈변·흑변은 출혈량과 활력징후를 먼저 평가하고 출혈 위치와 원인에 따라 내시경 등 검사를 결정한다.","articleUse":"혈변을 식품이나 유산균만으로 해결하려 하지 말아야 하는 안전 기준"},
+        {"organization":"국가암정보센터","type":"국내 암예방 근거","title":"국민 암예방 수칙 실천지침·대장암","url":"https://cancer.go.kr/download.do?uuid=9895c5f3-8b51-48e7-8d3a-35e10173843d.pdf","fact":"대장암 예방 식생활은 채소·과일·식이섬유를 늘리고 붉은 육류·육가공품, 짠 음식과 탄 음식을 제한하는 균형 식사를 권한다.","articleUse":"식이섬유를 보충제 한 가지가 아니라 전체 식사 패턴으로 설명"},
+        {"organization":"식품의약품안전처 식품안전나라","type":"건강기능식품 확인","title":"프로바이오틱스 제품 확인 안내","url":"https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?ans_yn=N&atch_file_posbl_yn=Y&bbs_no=bbs091601&bbs_type_cd=05&cmt_yn=N&copyUrl=https%3A%2F%2Fwww.foodsafetykorea.go.kr%3A443%2Fportal%2Fboard%2Fboard.do%3Fmenu_grp%3DMENU_NEW01&ctgry_type_cd=CTG_TYPE01&kword_use_yn=N&list_img_use_yn=Y&menu_grp=MENU_NEW01&menu_no=3862&meta_use_yn=Y&natn_cd_use_yn=N&ntctxt_no=1083961&nticmatr_yn=N&order_type=01&search_type=title&show_cnt=12&tag_use_yn=N","fact":"프로바이오틱스 건강기능식품은 인정된 기능성 원료와 건강기능식품 표시 여부를 확인해야 한다.","articleUse":"유산균 수치만 보지 않고 표시·기능성 원료·섭취 시 주의사항을 확인하는 기준"}
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fruit%2C_Vegetables_and_Grain_NCI_Visuals_Online.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Fruit,_Vegetables_and_Grain_NCI_Visuals_Online.jpg",
+          "alt": "식이섬유를 포함한 과일과 채소, 곡물",
+          "placement": "‘식이섬유는 갑자기 많이 먹지 마세요’ 소제목 아래",
+          "license": "Wikimedia Commons · 미국 NCI 공개 자료"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Foods_%28cropped%29.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Foods_(cropped).jpg",
+          "alt": "과일과 채소, 견과류와 곡물 모음",
+          "placement": "장 건강을 위한 현실적인 한 끼 설명 아래",
+          "license": "Wikimedia Commons · 미국 USDA 공개 자료"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/High_Fibre_Foods.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:High_Fibre_Foods.jpg",
+          "alt": "식이섬유가 풍부한 여러 식품",
+          "placement": "식이섬유 식품 종류를 소개하는 문단 아래",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Foods_with_a_high_fibre_content%2C_such_as_bread%2C_grains%2C_chia_seeds_and_nuts.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Foods_with_a_high_fibre_content,_such_as_bread,_grains,_chia_seeds_and_nuts.jpg",
+          "alt": "빵과 곡물, 치아씨드와 견과류 등 고식이섬유 식품",
+          "placement": "곡물과 견과류 선택 방법 설명 아래",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dietary_fiber_for_youngsters.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Dietary_fiber_for_youngsters.jpg",
+          "alt": "일상에서 선택할 수 있는 식이섬유 식품 구성",
+          "placement": "일주일 식생활 기록과 실천 항목 앞",
+          "license": "Wikimedia Commons · 출처 페이지 조건 확인"
+        }
+      ]
+    }
+  }
+}

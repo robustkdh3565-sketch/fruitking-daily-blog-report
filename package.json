@@ -1,0 +1,12 @@
+{
+  "name": "fruitking-daily-blog-report",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-three-posts.mjs",
+    "check": "node build-three-posts.mjs"
+  },
+  "dependencies": {
+    "marked": "^16.2.1"
+  }
+}
