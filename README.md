@@ -21,4 +21,8 @@
 
 글자 수, 이미지, 영상, 제목, 키워드, 톤과 무드는 [`NAVER_BLOG_WRITING_RULES.md`](NAVER_BLOG_WRITING_RULES.md)를 적용합니다. 고정된 형식을 반복하지 않고 매일 대표 키워드의 네이버 블로그 관련도순 상위 10개를 분석해 목표값을 정합니다.
 
+## 자동 생성
+
+당일 후보는 `data/YYYY-MM-DD-daily-report.json`에 저장합니다. `npm run build`는 후보 전부를 자동 채점하고 통과한 최대 3개만 골라 원문 줄거리, 점수, 키워드·해시태그, 공식 근거 3개, 추천 이미지 5개와 완성 원고를 하나의 HTML로 생성합니다. 다른 날짜 입력은 `DAILY_REPORT_DATA` 환경변수로 지정할 수 있습니다.
+
 제품 구매 링크는 [`PURCHASE_LINKS.md`](PURCHASE_LINKS.md)에 지정된 스마트스토어 URL 두 개만 사용합니다.

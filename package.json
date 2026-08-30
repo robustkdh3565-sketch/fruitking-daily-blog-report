@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build-issue-first-report.mjs",
+    "build": "node build-daily-report.mjs",
     "build:legacy": "node build-three-posts.mjs",
-    "check": "node selection-score.test.mjs && node verify-source-records.mjs && node build-three-posts.mjs && node build-issue-first-report.mjs",
+    "check": "node selection-score.test.mjs && node verify-source-records.mjs && node build-daily-report.mjs",
     "test:selection": "node selection-score.test.mjs"
   },
   "dependencies": {
