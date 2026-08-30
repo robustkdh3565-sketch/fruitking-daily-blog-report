@@ -5,6 +5,16 @@
     {"name":"건강·방송 주제 리서치 2026-08-30","result":"방송사·프로그램·회차·방송일과 국내 공식 건강 근거를 함께 검토","url":"https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-08-30.html"},
     {"name":"11·15·19시 게시물 ID 스냅샷","result":"동일 게시물 ID가 두 시점 이상 연결된 경우에만 조회 증가속도 점수 부여","url":"https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots/2026-08-30"}
   ],
+  "likelyTopicPolicy":{"threshold":75,"weights":{"verifiedMomentum":30,"celebrityOrBroadcast":20,"specificNumberOrBeforeAfter":15,"immediateActionOrUrgency":15,"searchExpansion":10,"fruitkingConnection":10},"note":"75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."},
+  "likelyTopicFlags":[
+    {"priority":1,"score":91,"reason":"인지도 높은 인물의 전후 변화와 실제 순위·조회 증가가 동시에 확인됨"},
+    {"priority":2,"score":88,"reason":"유명인·18kg·5개월이라는 구체적 숫자와 방송 노출이 결합됨"},
+    {"priority":3,"score":85,"reason":"조회 5만·댓글 500 수준의 반응과 바로 따라 할 수 있는 행동성이 확인됨"},
+    {"priority":4,"score":82,"reason":"혈변이라는 절박한 증상과 대장내시경이라는 명확한 검색 행동이 연결됨"},
+    {"priority":5,"score":80,"reason":"선우용여 인지도와 뇌경색·치매·가족 간병이 여러 방송에서 반복됨"},
+    {"priority":6,"score":78,"reason":"젓가락질이라는 익숙한 행동과 팔 저림·수술 검색 증가가 결합됨"},
+    {"priority":9,"score":77,"reason":"빠른 조회 증가와 누구나 이해할 수 있는 생활 공감 소재가 확인됨"}
+  ],
   "missedCandidates":[
     {"priority":1,"type":"연예인 변화","channel":"네이트판","title":"방시혁 최근 체중 변화","url":"https://pann.nate.com/talk/375599315","topic":"유명인 감량 사진, 건강한 체중 감량 기준으로 읽는 법","summary":"사진만으로 감량 방법은 확인할 수 없지만 짧은 시간에 조회가 빠르게 늘고 순위도 상승했다. 인물 인지도와 전후 비교 이미지가 강해 후속 인터뷰나 식단 정보가 나오면 최우선 재검토한다.","why":"유명인 + 눈에 보이는 전후 변화 + 감량법 궁금증"},
     {"priority":2,"type":"연예인 다이어트","channel":"MBC 전지적 참견 시점","title":"황재균 5개월 18kg 감량","url":"https://enews.imbc.com/M/Detail/515587","topic":"18kg 감량보다 근육과 유지 식단을 함께 봐야 하는 이유","summary":"황재균의 은퇴 이후 바디프로필 준비와 18kg 감량이 방송에서 공개됐다. 구체적인 인물·기간·수치가 있어 검색 전환력이 높지만 안전한 감량 속도와 유지법 검증이 더 필요하다.","why":"유명인 + 구체적 감량 수치 + 방송 직후 검색 가능성"},
