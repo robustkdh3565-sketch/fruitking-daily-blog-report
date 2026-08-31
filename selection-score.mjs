@@ -3,7 +3,10 @@ export function scoreVerifiedCandidate(c){
   const popularity=Math.max(clamp(c.viewCountPercentile,0,1),clamp(c.platformRankPercentile,0,1));
   // 조회 증가속도는 게시물 ID가 일치하는 두 개 이상의 스냅샷으로 확인된 경우에만 점수를 준다.
   const velocityScore=c.velocityObserved===true?clamp(c.viewVelocityPercentile,0,1)*20:0;
-  const popularityScore=popularity*15,engagementScore=clamp(c.engagementPercentile,0,1)*10;
+  // 공개 댓글이 없는 방송 주제는 건강 리서치의 검증된 편집 순위를 같은 칸에서 사용한다.
+  // 값의 출처는 engagementEvidenceType으로 반드시 밝혀야 하며, 둘을 더하지 않고 큰 값 하나만 쓴다.
+  const engagementSignal=Math.max(clamp(c.engagementPercentile,0,1),clamp(c.topicSignalPercentile,0,1));
+  const popularityScore=popularity*15,engagementScore=engagementSignal*10;
   const issue=velocityScore+popularityScore+engagementScore;
   const verification=(c.sourceBodyVerified?8:0)+(c.synopsisVerified?5:0)+(c.factOpinionSeparated?4:0)+(c.reactionsVerified?3:0);
   const linkage=clamp(c.directHealthLinkScore,0,8)+clamp(c.titleIntroMatchScore,0,4)+clamp(c.bodyReconnectScore,0,3);

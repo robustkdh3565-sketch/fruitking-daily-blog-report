@@ -1,0 +1,224 @@
+{
+  "reportDate": "2026-08-31",
+  "communityDays": 3,
+  "healthDays": 2,
+  "completeDays": 2,
+  "phase": "관찰 중",
+  "keywords": [
+    {
+      "keyword": "통증과 위험 신호",
+      "terms": [
+        "통증",
+        "저림",
+        "목디스크",
+        "경추척수증",
+        "허리"
+      ],
+      "hits": 2,
+      "days": 3,
+      "sources": 2,
+      "urls": [
+        "http://www.82cook.com/entiz/read.php?bn=15&num=4233269",
+        "https://queen.co.kr/news/articleView.html?idxno=462271"
+      ],
+      "score": 81,
+      "state": "관찰",
+      "eventKeys": [
+        "82cook.com/entiz/read.php?bn=15&num=4233269",
+        "queen.co.kr/news/articleView.html?idxno=462271"
+      ]
+    },
+    {
+      "keyword": "체중 감량과 유지",
+      "terms": [
+        "체중",
+        "감량",
+        "다이어트",
+        "비만",
+        "마운자로",
+        "위고비"
+      ],
+      "hits": 2,
+      "days": 2,
+      "sources": 2,
+      "urls": [
+        "https://theqoo.net/hot/4330612152",
+        "https://enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column"
+      ],
+      "score": 73,
+      "state": "관찰",
+      "eventKeys": [
+        "theqoo.net/hot/4330612152",
+        "enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column"
+      ]
+    },
+    {
+      "keyword": "생활 루틴과 자기관리",
+      "terms": [
+        "생활 루틴",
+        "생활 패턴",
+        "자기관리",
+        "수면",
+        "좌식"
+      ],
+      "hits": 2,
+      "days": 2,
+      "sources": 2,
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=dcbest&no=458478&list_num=100&_dcbest=1&page=1",
+        "https://m.imbc.com/program/1002831100000100000"
+      ],
+      "score": 73,
+      "state": "관찰",
+      "eventKeys": [
+        "gall.dcinside.com/board/view/?id=dcbest&no=458478&list_num=100&_dcbest=1&page=1",
+        "m.imbc.com/program/1002831100000100000"
+      ]
+    },
+    {
+      "keyword": "근육과 노년 건강",
+      "terms": [
+        "근육",
+        "골절",
+        "골다공증",
+        "낙상"
+      ],
+      "hits": 2,
+      "days": 2,
+      "sources": 2,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/rankingsongs/22000634414",
+        "https://m.imbc.com/program/1000832100000100000"
+      ],
+      "score": 70,
+      "state": "관찰",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/rankingsongs/22000634414",
+        "m.imbc.com/program/1000832100000100000"
+      ]
+    },
+    {
+      "keyword": "뇌 건강과 가족 간병",
+      "terms": [
+        "치매",
+        "뇌경색",
+        "간병",
+        "뇌 건강"
+      ],
+      "hits": 2,
+      "days": 2,
+      "sources": 2,
+      "urls": [
+        "https://m.imbc.com/program/1000832100000100000",
+        "https://enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column"
+      ],
+      "score": 70,
+      "state": "관찰",
+      "eventKeys": [
+        "m.imbc.com/program/1000832100000100000",
+        "enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column"
+      ]
+    },
+    {
+      "keyword": "장 건강과 검사",
+      "terms": [
+        "대장",
+        "혈변",
+        "대장내시경",
+        "장 건강",
+        "식이섬유"
+      ],
+      "hits": 1,
+      "days": 2,
+      "sources": 1,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625"
+      ],
+      "score": 56,
+      "state": "관찰",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625"
+      ]
+    },
+    {
+      "keyword": "아침식사와 간편 식단",
+      "terms": [
+        "아침식사",
+        "아침 식사",
+        "간편 식단",
+        "식단"
+      ],
+      "hits": 1,
+      "days": 1,
+      "sources": 1,
+      "urls": [
+        "https://www.etoland.co.kr/hit/etohumor07/view/990원-이케아-아침식사-실물-jpg-9297807"
+      ],
+      "score": 38,
+      "state": "관찰",
+      "eventKeys": [
+        "etoland.co.kr/hit/etohumor07/view/990원-이케아-아침식사-실물-jpg-9297807"
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "core": "통증과 위험 신호",
+      "adjacent": [
+        "저림",
+        "일상 동작 변화",
+        "진료 시점"
+      ],
+      "title": "온라인 통증 팁을 따라 하기 전에 볼 위험 신호",
+      "bridge": "즉시 실천 팁을 안전 확인 콘텐츠로 확장",
+      "origin": "편집 보완",
+      "evidenceCount": 0
+    },
+    {
+      "core": "체중 감량과 유지",
+      "adjacent": [
+        "뇌 건강과 가족 간병"
+      ],
+      "title": "감량 숫자보다 오래 유지되는 식사 루틴",
+      "bridge": "감량 이슈를 중단 후 유지 행동으로 확장",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    },
+    {
+      "core": "생활 루틴과 자기관리",
+      "adjacent": [
+        "식사 시간",
+        "수면",
+        "오래 앉기"
+      ],
+      "title": "하루를 무너뜨리는 생활 패턴부터 바꾸는 작은 습관",
+      "bridge": "공감형 생활 이슈를 실행 가능한 루틴으로 전환",
+      "origin": "편집 보완",
+      "evidenceCount": 0
+    },
+    {
+      "core": "근육과 노년 건강",
+      "adjacent": [
+        "뇌 건강과 가족 간병"
+      ],
+      "title": "중년 이후 살만 빼면 안 되는 이유",
+      "bridge": "감량과 노년 근육·뼈 관리를 연결",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    },
+    {
+      "core": "뇌 건강과 가족 간병",
+      "adjacent": [
+        "근육과 노년 건강",
+        "체중 감량과 유지"
+      ],
+      "title": "치매보다 먼저 가족이 확인해야 할 생활 변화",
+      "bridge": "인물 방송을 가족의 관찰·진료 질문으로 확장",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    }
+  ],
+  "uniqueEvents": 378,
+  "generatedAt": "2026-08-31T04:40:52.744Z",
+  "previousSnapshot": "2026-08-30-weekly-insights.json"
+}
