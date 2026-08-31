@@ -6,6 +6,9 @@ const parent=path.resolve(root,'..');
 const dates=fs.readdirSync(path.join(parent,'keyword-status','reports')).filter(x=>/^\d{4}-\d{2}-\d{2}\.html$/.test(x)).map(x=>x.slice(0,10)).filter(d=>fs.existsSync(path.join(parent,'broadcast-topic-research','reports',`${d}.html`))).sort();
 const date=process.env.REPORT_DATE||dates.at(-1); if(!date)throw Error('UPSTREAM_REPORTS_NOT_FOUND');
 const out=path.join(root,'data',`${date}-daily-report.json`); if(fs.existsSync(out)){console.log(`DAILY_INPUT_EXISTS ${out}`);process.exit(0)}
+// 8월 31일 장애 복구용 입력만 코드에 고정한다. 이후 날짜에 과거 주제를 복제하지 않는다.
+// 매일 예약 작업은 당일 두 리서치를 읽고 검증된 새 입력을 먼저 작성한 뒤 npm run check를 실행한다.
+if(date!=='2026-08-31')throw Error(`DAILY_EDITORIAL_INPUT_REQUIRED ${date}`);
 const previous=fs.readdirSync(path.join(root,'data')).filter(x=>/-daily-report\.json$/.test(x)).sort().at(-1);if(!previous)throw Error('PREVIOUS_DAILY_TEMPLATE_NOT_FOUND');
 const base=JSON.parse(fs.readFileSync(path.join(root,'data',previous),'utf8'));
 const community=JSON.parse(fs.readFileSync(path.join(parent,'keyword-status','data',`${date}.json`),'utf8'));
