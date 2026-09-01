@@ -1,0 +1,66 @@
+import fs from'node:fs';import path from'node:path';
+const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/,'$1')),date='2026-09-01';
+const article=`# 눈이 침침할 때 노안으로 넘기기 전 확인할 것
+
+발행일: 2026-09-01
+
+SBS 좋은아침 7328회는 ‘방심하다 실명까지?! 눈 건강의 모든 것’이라는 제목으로 방송됐습니다. 공식 회차 페이지에는 노안, 안구건조증, 백내장, 녹내장이 주요 내용으로 정리돼 있습니다. 눈이 침침하거나 뻑뻑한 증상을 단순한 노화로 여기기 쉽지만, 증상만으로 원인을 구분하거나 병명을 단정할 수는 없습니다. 이번 글은 방송 내용을 출발점으로 삼아 어떤 변화를 기록하고 언제 검사를 고려해야 하는지 국내 공식 자료를 기준으로 정리합니다.
+
+## 핵심만 먼저
+
+- 침침함과 뻑뻑함이 반복되면 발생 시간, 지속 시간, 통증·충혈·두통 동반 여부를 먼저 기록합니다.
+- 안구건조증, 백내장, 녹내장은 이름이 비슷한 ‘눈 문제’로 묶이지만 확인 방법과 대응이 다릅니다.
+- 심한 눈 통증, 갑작스러운 시력저하, 충혈과 구토·두통이 함께 나타나면 생활 팁으로 버티지 말고 진료를 받아야 합니다.
+- 과일과 채소는 균형 잡힌 식사의 일부일 뿐 특정 눈 질환을 치료하거나 검사를 대신하지 않습니다.
+
+## 좋은아침 7328회에서 다룬 내용
+
+방송일은 2026년 8월 31일입니다. SBS 공식 페이지는 나이가 들며 나타나는 노안, 안구건조증이 노안을 빠르게 체감하게 만드는 상황, 백내장과 녹내장의 위험성을 주요 항목으로 소개합니다. 특히 백내장과 녹내장을 ‘방치하면 실명 위험이 있는 질환’이라는 맥락에서 다뤘습니다. 방송의 표현은 관심을 끌기 위한 제목이 포함돼 있으므로, 실제 판단은 개인 증상과 안과 검사 결과를 기준으로 해야 합니다.
+
+노안은 가까운 거리에 초점을 맞추는 능력이 떨어지는 변화입니다. 책이나 휴대전화 글씨를 멀리해야 편하고, 밝은 곳에서 더 잘 보이는 느낌으로 시작할 수 있습니다. 그러나 흐릿함이라는 한 단어만으로 노안인지, 안구 표면 문제인지, 수정체나 시신경 문제인지 구분할 수 없습니다. 불편함이 반복되면 ‘나이 탓’이라는 결론보다 검사를 통해 원인을 나누는 과정이 먼저입니다.
+
+## 안구건조증은 눈물이 부족하다는 뜻만은 아닙니다
+
+질병관리청 국가건강정보포털은 안구건조증의 증상이 이물감, 작열감, 뻑뻑함, 충혈, 눈부심, 안구 피로처럼 다양하다고 설명합니다. 독서, TV, 컴퓨터처럼 눈을 오래 집중해서 사용하는 상황이나 습도가 낮은 환경에서 불편함이 심해질 수 있습니다. 눈물이 흐르는데도 건조하다고 느끼는 경우가 있어 ‘눈물이 나오니 건조증은 아니다’라고 단정하기 어렵습니다.
+
+생활에서는 화면을 오래 볼 때 의식적으로 쉬는 시간을 만들고, 바람이 눈에 직접 닿는 환경을 줄이며, 렌즈 착용 시간과 위생 상태를 확인할 수 있습니다. 인공눈물이나 안약은 종류가 다양하므로 광고나 지인의 경험만 보고 장기간 사용하는 방식은 피하는 편이 좋습니다. 특히 충혈만 줄이는 제품으로 원인을 가리면 진료 시기를 놓칠 수 있습니다.
+
+## 백내장과 녹내장은 같은 질환이 아닙니다
+
+백내장은 눈 속 수정체가 혼탁해져 시야가 흐려지는 질환입니다. 질병관리청 자료는 이미 혼탁해진 수정체를 약물만으로 원래 상태로 되돌리기는 어렵고, 일상생활에 지장이 생기거나 합병증 위험이 있을 때 수술 시기를 검토한다고 설명합니다. 수술 여부와 인공수정체 선택은 눈 상태, 연령, 직업과 생활습관을 함께 보고 결정합니다.
+
+녹내장은 시신경 손상과 관련된 질환이며 말기까지 특별한 증상을 느끼지 못하는 경우도 있습니다. 한 번 손상된 시신경은 회복되지 않기 때문에 조기 진단과 치료가 중요합니다. 안압검사 하나만으로 모든 경우를 판단하는 것이 아니라 시야검사와 시신경검사 등 여러 결과를 종합합니다. 가족력이 있거나 안과에서 추적 관찰을 권고받았다면 증상이 없다는 이유로 검사를 미루지 않는 것이 좋습니다.
+
+## 이런 변화는 빨리 확인해야 합니다
+
+서서히 침침해지는 변화와 갑자기 발생한 시력저하는 같은 방식으로 대응하면 안 됩니다. 질병관리청 녹내장 자료는 급성 녹내장에서 심한 눈 통증, 시력저하, 충혈, 구토와 두통이 동반될 수 있다고 설명합니다. 갑작스러운 시야 변화나 강한 통증이 있으면 음식, 마사지, 휴식만으로 해결하려 하지 말고 의료기관에 문의해야 합니다.
+
+증상 기록은 진료에 도움이 됩니다. 어느 쪽 눈인지, 언제 시작했는지, 계속되는지 반복되는지, 빛 번짐이나 두통이 함께 있는지 적습니다. 사용 중인 안약과 렌즈, 복용 약도 함께 정리합니다. 사진으로 충혈 변화를 남길 수 있지만 사진만으로 병명을 판단하지는 않습니다.
+
+## 눈 건강 식단은 치료식처럼 말하지 않아야 합니다
+
+눈 건강을 검색하면 당근, 블루베리, 결명자처럼 특정 식품이 자주 등장합니다. 식품 한 가지가 백내장이나 녹내장을 치료한다는 식의 표현은 피해야 합니다. 과일과 채소는 비타민, 무기질과 식이섬유를 섭취하는 균형 잡힌 식사의 일부로 볼 수 있지만 안과 검사를 대체하지 않습니다.
+
+현실적인 식사 기준은 특정 색깔의 식품을 과하게 먹는 것이 아니라 여러 종류의 채소와 과일을 식사 전체 안에 배치하는 것입니다. 플레인 요구르트에 과일을 곁들이거나, 식사에 익힌 채소를 더하는 방식은 간단한 선택지가 될 수 있습니다. 다만 당류를 관리해야 하거나 신장질환 등으로 섭취 조절이 필요한 사람은 개인 지침을 우선해야 합니다.
+
+영양제도 같은 원칙으로 봅니다. ‘눈에 좋다’는 문구보다 제품의 성분과 함량, 중복 섭취 여부를 확인합니다. 눈이 불편하다는 이유로 영양제를 먼저 늘리기보다 증상의 원인을 확인하고, 복용 중인 약과 함께 의료진에게 알리는 것이 안전합니다.
+
+## 하루 동안 실천할 수 있는 점검표
+
+아침에는 눈을 뜰 때 통증이나 심한 뻑뻑함이 있는지 확인합니다. 업무 중에는 화면을 연속해서 본 시간을 체크하고 중간에 먼 곳을 보는 휴식을 둡니다. 오후에는 냉난방기 바람이 눈으로 직접 오는지 살핍니다. 저녁에는 글씨를 읽을 때 필요한 거리와 밝기가 이전과 달라졌는지 기록합니다.
+
+렌즈를 쓴다면 손 씻기, 보관 용액과 케이스 관리, 권장 착용 시간을 점검합니다. 안약은 개봉일과 사용기한을 확인합니다. 눈을 세게 비비는 습관이 있다면 원인이 가려움인지 건조감인지 살피고 반복될 경우 상담합니다. 작은 기록이 쌓이면 막연히 ‘눈이 나빠졌다’는 설명보다 정확한 정보를 전달할 수 있습니다.
+
+## 방송을 본 뒤 기억할 결론
+
+좋은아침 7328회의 핵심은 노안, 안구건조증, 백내장, 녹내장을 한 번에 두려워하라는 뜻이 아닙니다. 비슷하게 느껴지는 증상이라도 원인이 다를 수 있으므로 방치하거나 자가진단하지 말자는 메시지로 받아들이는 편이 정확합니다. 화면 사용과 렌즈 위생 같은 생활 습관을 정리하는 일은 필요하지만, 갑작스러운 변화와 위험 신호를 생활관리로 대신해서는 안 됩니다.
+
+과일, 채소와 요구르트를 활용한 균형 잡힌 식사는 전반적인 생활관리의 한 부분입니다. 특정 음식이 시력을 되돌리거나 질환을 없앤다고 기대하지 않고, 정기적인 검사와 필요한 치료를 중심에 두어야 합니다. 오늘 할 일은 눈에 좋다는 제품을 더 사는 것이 아니라 최근의 시야 변화와 불편함을 기록하고, 검사가 필요한 상태인지 확인하는 것입니다.
+
+※ 참고한 국내 공식 자료: 질병관리청 국가건강정보포털 ‘안구건조증’, ‘백내장’, ‘녹내장’.
+`;
+fs.writeFileSync(path.join(root,'articles',`${date}-01-eye-health.md`),article);
+const file=path.join(root,'data',`${date}-daily-report.json`),d=JSON.parse(fs.readFileSync(file,'utf8'));
+const c={topicKey:'sbs-eye-health-7328',community:'SBS 좋은아침',title:'방심하다 실명까지?! 눈 건강의 모든 것',optimizedTitle:'눈이 침침할 때 노안으로 넘기기 전 확인할 것',searchIntent:'눈 침침함과 안구건조증·백내장·녹내장의 차이, 검사와 진료가 필요한 신호를 찾는 정보형 검색',url:'https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030',publishedAt:'2026-08-31T09:00:00+09:00',ageHours:27,viewsCollected:false,views:null,comments:null,viewVelocity:null,velocityObserved:false,snapshotRefs:[],platformRank:1,viewVelocityPercentile:0,viewCountPercentile:0,platformRankPercentile:1,engagementPercentile:0,topicSignalPercentile:.9,engagementEvidenceType:'건강주제 리서치 당일 신규 방송 1위',sourceBodyVerified:true,synopsisVerified:true,factOpinionSeparated:true,reactionsVerified:true,synopsis:'SBS 좋은아침 7328회 공식 페이지에서 2026년 8월 31일 방송일과 노안, 안구건조증, 백내장, 녹내장을 다룬 회차 설명을 확인했다. 방송은 눈의 침침함을 단순 노화로 넘기지 말고 질환별 위험과 검사 필요성을 살피는 내용이다. 개인 증상으로 병명을 단정하지 않고 생활 기록, 위험 신호와 안과 검사 기준으로 연결한다.',reactions:['방송 공식 회차와 주제 확인','공개 조회수와 댓글은 미수집','질환별 자가진단 대신 검사 기준 관심'],directHealthLinkScore:8,titleIntroMatchScore:4,bodyReconnectScore:3,searchSolutionScore:10,officialEvidenceScore:5,fruitkingUspScore:3,uspAngle:'과일·채소·요구르트를 치료제가 아닌 균형 식사의 일부로 설명',articleFile:`articles/${date}-01-eye-health.md`,keywords:['눈 침침함','안구건조증','백내장','녹내장 검사'],hashtags:['#눈건강','#안구건조증','#백내장','#녹내장','#노안','#안과검사','#눈침침함','#생활습관'],officialEvidence:[{organization:'질병관리청 국가건강정보포털',title:'안구건조증',url:'https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6306.',fact:'안구건조증의 다양한 증상과 악화 환경, 검사 방법을 설명한다.'},{organization:'질병관리청 국가건강정보포털',title:'백내장',url:'https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6689',fact:'백내장의 치료 원칙과 수술 시기를 검토하는 기준을 설명한다.'},{organization:'질병관리청 국가건강정보포털',title:'녹내장',url:'https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6690',fact:'녹내장의 조기 진단 필요성과 급성 위험 신호, 주요 검사를 설명한다.'}],images:[{directUrl:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Blue_eye_2.jpg',sourcePage:'https://commons.wikimedia.org/wiki/File:Blue_eye_2.jpg',alt:'사람의 눈 근접 사진',placement:'눈 증상 기록 설명 아래',license:'Wikimedia Commons · 출처 페이지 확인'},{directUrl:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Cataract_in_human_eye.png',sourcePage:'https://commons.wikimedia.org/wiki/File:Cataract_in_human_eye.png',alt:'백내장이 보이는 눈 자료',placement:'백내장 설명 아래',license:'Wikimedia Commons · 출처 페이지 확인'},{directUrl:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Slit_lamp.jpg',sourcePage:'https://commons.wikimedia.org/wiki/File:Slit_lamp.jpg',alt:'안과 세극등 검사 장비',placement:'검사 기준 설명 아래',license:'Wikimedia Commons · 출처 페이지 확인'},{directUrl:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Eye_drops.jpg',sourcePage:'https://commons.wikimedia.org/wiki/File:Eye_drops.jpg',alt:'점안액 자료 사진',placement:'안약 자가사용 주의 문단 아래',license:'Wikimedia Commons · 출처 페이지 확인'},{directUrl:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal.jpg',sourcePage:'https://commons.wikimedia.org/wiki/File:Healthy_meal.jpg',alt:'채소와 단백질이 포함된 균형 식사',placement:'눈 건강 식단 설명 아래',license:'Wikimedia Commons · CC BY-SA 4.0'}]};
+d.candidates=[c];d.selectedSourceAudits=[{topicKey:c.topicKey,url:c.url,sourceBodyVerified:true,publishedAt:c.publishedAt,excerptFacts:['SBS 공식 회차 페이지에서 7328회와 2026년 8월 31일 방송일을 확인했다.','공식 설명에 노안, 안구건조증, 백내장, 녹내장이 주요 항목으로 기재돼 있다.']}];
+fs.writeFileSync(file,JSON.stringify(d,null,2));console.log('repaired 2026-09-01');

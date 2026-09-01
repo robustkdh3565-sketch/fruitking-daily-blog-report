@@ -2,6 +2,25 @@
   "schemaVersion": 1,
   "reportDate": "2026-09-01",
   "snapshotDate": "2026-08-31",
-  "generatedAt": "2026-09-01T03:04:27.568Z",
-  "records": []
+  "generatedAt": "2026-09-01T03:20:57.925Z",
+  "records": [
+    {
+      "topicKey": "sbs-eye-health-7328",
+      "postId": "/programTemplate/amp/vod/goodmorning/22000635030",
+      "title": "방심하다 실명까지?! 눈 건강의 모든 것",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+      "publishedAt": "2026-08-31T09:00:00+09:00",
+      "sourceBodyVerified": true,
+      "excerptFacts": [
+        "SBS 공식 회차 페이지에서 7328회와 2026년 8월 31일 방송일을 확인했다.",
+        "공식 설명에 노안, 안구건조증, 백내장, 녹내장이 주요 항목으로 기재돼 있다."
+      ],
+      "snapshotFiles": [],
+      "views": null,
+      "comments": null,
+      "reactions": null,
+      "rank": 1,
+      "evidenceHash": "23674996172d223c7dda78867c79e0961ce7015ba215831cf762a646c5992959"
+    }
+  ]
 }
