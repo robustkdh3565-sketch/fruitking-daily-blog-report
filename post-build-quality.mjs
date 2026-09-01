@@ -7,4 +7,5 @@ for(const c of selected){const md=fs.readFileSync(path.join(root,c.articleFile),
 if(selected.length<3){if(!Array.isArray(d.candidateShortfall)||!d.candidateShortfall.length)throw Error('QUALITY_SHORTFALL_REASON_MISSING');for(const x of d.candidateShortfall)if(!SHORTFALL_REASONS.includes(x.reason)&&x.reason!=='상위 3개 미진입')throw Error(`QUALITY_SHORTFALL_REASON_INVALID ${x.reason}`)}
 if(selected.length===0&&(!d.zeroSelectionReview?.confirmed||d.zeroSelectionReview.steps?.length<3))throw Error('QUALITY_ZERO_REVIEW_MISSING');
 const html=fs.readFileSync(path.join(root,'reports',`${d.reportDate}-issue-first.html`),'utf8');for(const c of selected)if(!html.includes(c.optimizedTitle))throw Error(`QUALITY_REPORT_TITLE_MISSING ${c.topicKey}`);if(!fs.existsSync(path.join(dir,`${d.reportDate}-weekly-insights.json`)))throw Error('QUALITY_WEEKLY_INSIGHTS_MISSING');
+const mdReport=fs.readFileSync(path.join(root,'reports',`${d.reportDate}-issue-first.md`),'utf8');if(/프룻킹|FRUITKING/i.test(html+mdReport))throw Error('QUALITY_PUBLIC_BRAND_TOKEN_EXPOSED');
 console.log(`post-build quality passed: ${selected.length} selected`);
