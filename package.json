@@ -6,7 +6,7 @@
     "build": "node build-daily-report.mjs && node polish-report-copy.mjs",
     "build:legacy": "node build-three-posts.mjs",
     "prepare": "node prepare-daily-input.mjs",
-    "check": "node prepare-daily-input.mjs && node selection-score.test.mjs && node watchlist-score.test.mjs && node snapshot-pipeline.test.mjs && node performance-feedback.test.mjs && node weekly-insights.test.mjs && node build-auto-candidate-pool.mjs && node analyze-performance.mjs && node verify-source-records.mjs && node pipeline-gates.mjs && node dry-run-daily.mjs && node build-source-evidence.mjs && node build-daily-report.mjs && node polish-report-copy.mjs",
+    "check": "node prepare-daily-input.mjs && node source-recovery.test.mjs && node selection-score.test.mjs && node watchlist-score.test.mjs && node snapshot-pipeline.test.mjs && node performance-feedback.test.mjs && node weekly-insights.test.mjs && node recover-zero-selection.mjs && node build-auto-candidate-pool.mjs && node analyze-performance.mjs && node verify-source-records.mjs && node pipeline-gates.mjs && node dry-run-daily.mjs && node build-source-evidence.mjs && node build-daily-report.mjs && node polish-report-copy.mjs && node post-build-quality.mjs",
     "test:selection": "node selection-score.test.mjs"
   },
   "dependencies": {

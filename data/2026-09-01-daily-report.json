@@ -343,6 +343,11 @@
     {
       "topicKey": "sbs-eye-health-7328",
       "community": "SBS 좋은아침",
+      "sourceKind": "broadcast",
+      "broadcaster": "SBS",
+      "programName": "좋은아침",
+      "episode": "7328회",
+      "broadcastDate": "2026-08-31",
       "title": "방심하다 실명까지?! 눈 건강의 모든 것",
       "optimizedTitle": "눈이 침침할 때 노안으로 넘기기 전 확인할 것",
       "searchIntent": "눈 침침함과 안구건조증·백내장·녹내장의 차이, 검사와 진료가 필요한 신호를 찾는 정보형 검색",
@@ -395,6 +400,17 @@
         "#안과검사",
         "#눈침침함",
         "#생활습관"
+      ],
+      "sourceAttempts": [
+        {
+          "type": "direct",
+          "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+          "reachable": true,
+          "bodyVerified": true,
+          "sameTopic": true,
+          "synopsisVerified": true,
+          "reactionsVerified": true
+        }
       ],
       "officialEvidence": [
         {
@@ -454,5 +470,73 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceRecoveryCandidates": [],
+  "candidateShortfall": [
+    {
+      "topicKey": "watch-1",
+      "title": "결혼25년차... 세상 사랑꾼인 남편이...",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234041",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-2",
+      "title": "힘의차이가 느껴지십니까",
+      "url": "https://arca.live/b/live/181585926?p=1",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-3",
+      "title": "진정한 생리얼 예능이었던 한 장면",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1027852&vdate=h",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-4",
+      "title": "용혜인에게 한마디 하는 jtbc 앵커 한 마디",
+      "url": "https://www.clien.net/service/board/park/19256574?od=T33&po=0&category=0&groupCd=clien_all",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-5",
+      "title": "[싱갤] 안싱글벙글 념글의 평택 여경 성추행사건의 웃긴 점",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=458997&list_num=100&_dcbest=1&page=1",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-6",
+      "title": "김용남 근황.........................ㄷㄷㄷㄷㄷ",
+      "url": "https://www.ddanzi.com/free/893054477",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-7",
+      "title": "맘카페에서 난리난 친자검사 .jpg",
+      "url": "https://www.dogdrip.net/dogdrip/722241094?sort_index=popular&page=1",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-8",
+      "title": "평택 노래방 여경 강제 추행 사건 결말",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/평택-노래방-여경-강제-추행-사건-결말-9302146",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-9",
+      "title": "남자직원은 보건실 사용 금지 ㅋㅋㅋㅋㅋ.jpg",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10279253770",
+      "reason": "원문 접근 실패"
+    },
+    {
+      "topicKey": "watch-10",
+      "title": "한국 여행 가이드/한국에서 꼭 가봐야 할 곳, 해외반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=history02&wr_id=113788",
+      "reason": "원문 접근 실패"
+    }
+  ],
+  "sourceRecoveryRun": {
+    "executed": false,
+    "recoveredTopicKeys": [],
+    "checkedAt": "2026-09-01T03:32:39.479Z"
+  }
 }
