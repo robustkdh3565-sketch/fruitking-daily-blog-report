@@ -6,13 +6,22 @@ const parent=path.resolve(root,'..');
 const dates=fs.readdirSync(path.join(parent,'keyword-status','reports')).filter(x=>/^\d{4}-\d{2}-\d{2}\.html$/.test(x)).map(x=>x.slice(0,10)).filter(d=>fs.existsSync(path.join(parent,'broadcast-topic-research','reports',`${d}.html`))).sort();
 const date=process.env.REPORT_DATE||dates.at(-1); if(!date)throw Error('UPSTREAM_REPORTS_NOT_FOUND');
 const out=path.join(root,'data',`${date}-daily-report.json`); if(fs.existsSync(out)){console.log(`DAILY_INPUT_EXISTS ${out}`);process.exit(0)}
-// 8월 31일 장애 복구용 입력만 코드에 고정한다. 이후 날짜에 과거 주제를 복제하지 않는다.
-// 매일 예약 작업은 당일 두 리서치를 읽고 검증된 새 입력을 먼저 작성한 뒤 npm run check를 실행한다.
-if(date!=='2026-08-31')throw Error(`DAILY_EDITORIAL_INPUT_REQUIRED ${date}`);
 const previous=fs.readdirSync(path.join(root,'data')).filter(x=>/-daily-report\.json$/.test(x)).sort().at(-1);if(!previous)throw Error('PREVIOUS_DAILY_TEMPLATE_NOT_FOUND');
 const base=JSON.parse(fs.readFileSync(path.join(root,'data',previous),'utf8'));
 const community=JSON.parse(fs.readFileSync(path.join(parent,'keyword-status','data',`${date}.json`),'utf8'));
 const items=community.items||community.communityItems||[];
+// 자동화가 원문 본문까지 확인하지 못한 날에는 과거 원고를 복제하지 않는다.
+// 대신 당일 실제 URL 10개를 검증 보류 후보로 남긴 0편 리포트를 발행한다.
+if(date!=='2026-08-31'){
+  const seen=new Set(),watch=items.filter(x=>x.url&&!seen.has(x.url)&&seen.add(x.url)).sort((a,b)=>(a.rank??99)-(b.rank??99)).slice(0,10);
+  if(watch.length<10)throw Error(`CURRENT_WATCHLIST_TOO_SMALL ${date} ${watch.length}`);
+  const missedCandidates=watch.map((x,i)=>({priority:i+1,type:'원문 검증 대기',channel:x.community||'커뮤니티',title:x.title,url:x.url,topic:x.topic||x.title,summary:`${x.community||'커뮤니티'}에서 ${Number.isFinite(x.views)?`조회 ${x.views.toLocaleString('ko-KR')}회`: '조회수 미수집'}, 댓글 ${Number.isFinite(x.comments)?x.comments.toLocaleString('ko-KR'):'미수집'}로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.`,why:'원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음'}));
+  const watchlistPredictionInputs=watch.map((x,i)=>({priority:i+1,signals:{verifiedMomentum:0,celebrityOrBroadcast:0,specificNumberOrBeforeAfter:0,immediateActionOrUrgency:0,searchExpansion:0,fruitkingConnection:0},reason:'원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음'}));
+  const watchlistSourceAudits=watch.map((x,i)=>({priority:i+1,publishedAt:x.publishedAt||date,sourceBodyVerified:false,metricsStatus:Number.isFinite(x.views)?`조회 ${x.views.toLocaleString('ko-KR')}회 확인, 본문 미검증`:'조회수 미수집, 본문 미검증'}));
+  const fallback={...base,reportDate:date,checkedAt:`${date}T12:00:00+09:00`,snapshotCount:1,assetManifest:'data/2026-08-30-sources.json',researchLineage:[{name:`커뮤니티 리서치 ${date}`,result:'당일 순위·조회·댓글 후보를 확인했으나 원문 본문 검증 전',url:`https://robustkdh3565-sketch.github.io/keyword-status/reports/${date}.html`},{name:`건강·방송 주제 리서치 ${date}`,result:'당일 방송 주제와 건강 연결 후보를 확인했으나 최종 원문 검증 전',url:`https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/${date}.html`},{name:'전일 게시물 ID 스냅샷',result:'동일 게시물 ID의 전후 값이 있을 때만 조회 증가 속도를 사용하며 미확인 값은 0으로 바꾸지 않음',url:`https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots`}],watchlistPredictionInputs,watchlistSourceAudits,selectedSourceAudits:[],missedCandidates,candidates:[]};
+  fs.writeFileSync(out,JSON.stringify(fallback,null,2));
+  console.log(`DAILY_FALLBACK_INPUT_CREATED ${out}`);process.exit(0);
+}
 const find=(needle)=>items.find(x=>String(x.title||'').includes(needle));
 const diet=find('다이어트 성공한 연예인')||{title:'요즘 다이어트 성공한 연예인에게 달리는 댓글.jpg',url:'https://theqoo.net/hot/4330612152',views:62678,comments:393,publishedAt:'2026-08-30T22:12:00Z',rank:5,community:'더쿠'};
 const priorCandidates=new Map(base.candidates.map(x=>[x.topicKey,x]));

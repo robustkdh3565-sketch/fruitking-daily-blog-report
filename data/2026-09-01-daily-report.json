@@ -1,0 +1,332 @@
+{
+  "reportDate": "2026-09-01",
+  "checkedAt": "2026-09-01T12:00:00+09:00",
+  "snapshotCount": 1,
+  "assetManifest": "data/2026-08-30-sources.json",
+  "pipelinePolicy": {
+    "publicationHourKst": 12,
+    "confirmedSnapshotRule": "previous-day-11-15-19",
+    "previousDayRuleEffectiveFrom": "2026-08-31",
+    "morningSnapshotUse": "same-day-breaking-candidates-only",
+    "minimumWatchlist": 10,
+    "stopOnValidationFailure": true,
+    "preventRepeatedTopicDays": 7
+  },
+  "researchLineage": [
+    {
+      "name": "커뮤니티 리서치 2026-09-01",
+      "result": "당일 순위·조회·댓글 후보를 확인했으나 원문 본문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-09-01.html"
+    },
+    {
+      "name": "건강·방송 주제 리서치 2026-09-01",
+      "result": "당일 방송 주제와 건강 연결 후보를 확인했으나 최종 원문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-09-01.html"
+    },
+    {
+      "name": "전일 게시물 ID 스냅샷",
+      "result": "동일 게시물 ID의 전후 값이 있을 때만 조회 증가 속도를 사용하며 미확인 값은 0으로 바꾸지 않음",
+      "url": "https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots"
+    }
+  ],
+  "likelyTopicPolicy": {
+    "threshold": 75,
+    "weights": {
+      "verifiedMomentum": 30,
+      "celebrityOrBroadcast": 20,
+      "specificNumberOrBeforeAfter": 15,
+      "immediateActionOrUrgency": 15,
+      "searchExpansion": 10,
+      "fruitkingConnection": 10
+    },
+    "note": "75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."
+  },
+  "watchlistPredictionInputs": [
+    {
+      "priority": 1,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 2,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 3,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 4,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 5,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 6,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 7,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 8,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 9,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 10,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    }
+  ],
+  "watchlistSourceAudits": [
+    {
+      "priority": 1,
+      "publishedAt": "2026-08-31T08:53:05.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 18,446회 확인, 본문 미검증"
+    },
+    {
+      "priority": 2,
+      "publishedAt": "2026-08-31T07:09:15.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 23,287회 확인, 본문 미검증"
+    },
+    {
+      "priority": 3,
+      "publishedAt": "2026-08-31T22:00:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 17,231회 확인, 본문 미검증"
+    },
+    {
+      "priority": 4,
+      "publishedAt": "2026-08-31T14:58:55.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 11,000회 확인, 본문 미검증"
+    },
+    {
+      "priority": 5,
+      "publishedAt": "2026-08-31T16:35:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 27,149회 확인, 본문 미검증"
+    },
+    {
+      "priority": 6,
+      "publishedAt": "2026-08-31T02:58:17.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 13,100회 확인, 본문 미검증"
+    },
+    {
+      "priority": 7,
+      "publishedAt": "2026-08-31T10:07:08.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회수 미수집, 본문 미검증"
+    },
+    {
+      "priority": 8,
+      "publishedAt": "2026-08-30T18:49:26.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 26,805회 확인, 본문 미검증"
+    },
+    {
+      "priority": 9,
+      "publishedAt": "2026-08-31T06:24:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 430,000회 확인, 본문 미검증"
+    },
+    {
+      "priority": 10,
+      "publishedAt": "2026-08-31T23:54:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 3,144회 확인, 본문 미검증"
+    }
+  ],
+  "selectedSourceAudits": [],
+  "missedCandidates": [
+    {
+      "priority": 1,
+      "type": "원문 검증 대기",
+      "channel": "82cook",
+      "title": "결혼25년차... 세상 사랑꾼인 남편이...",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234041",
+      "topic": "결혼25년차... 세상 사랑꾼인 남편이...",
+      "summary": "82cook에서 조회 18,446회, 댓글 83로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 2,
+      "type": "원문 검증 대기",
+      "channel": "arca",
+      "title": "힘의차이가 느껴지십니까",
+      "url": "https://arca.live/b/live/181585926?p=1",
+      "topic": "힘의차이가 느껴지십니까",
+      "summary": "arca에서 조회 23,287회, 댓글 425로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 3,
+      "type": "원문 검증 대기",
+      "channel": "bobae",
+      "title": "진정한 생리얼 예능이었던 한 장면",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1027852&vdate=h",
+      "topic": "진정한 생리얼 예능이었던 한 장면",
+      "summary": "bobae에서 조회 17,231회, 댓글 40로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 4,
+      "type": "원문 검증 대기",
+      "channel": "clien",
+      "title": "용혜인에게 한마디 하는 jtbc 앵커 한 마디",
+      "url": "https://www.clien.net/service/board/park/19256574?od=T33&po=0&category=0&groupCd=clien_all",
+      "topic": "용혜인에게 한마디 하는 jtbc 앵커 한 마디",
+      "summary": "clien에서 조회 11,000회, 댓글 25로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 5,
+      "type": "원문 검증 대기",
+      "channel": "dcinside",
+      "title": "[싱갤] 안싱글벙글 념글의 평택 여경 성추행사건의 웃긴 점",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=458997&list_num=100&_dcbest=1&page=1",
+      "topic": "[싱갤] 안싱글벙글 념글의 평택 여경 성추행사건의 웃긴 점",
+      "summary": "dcinside에서 조회 27,149회, 댓글 453로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 6,
+      "type": "원문 검증 대기",
+      "channel": "ddanzi",
+      "title": "김용남 근황.........................ㄷㄷㄷㄷㄷ",
+      "url": "https://www.ddanzi.com/free/893054477",
+      "topic": "김용남 근황.........................",
+      "summary": "ddanzi에서 조회 13,100회, 댓글 53로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 7,
+      "type": "원문 검증 대기",
+      "channel": "dogdrip",
+      "title": "맘카페에서 난리난 친자검사 .jpg",
+      "url": "https://www.dogdrip.net/dogdrip/722241094?sort_index=popular&page=1",
+      "topic": "맘카페에서 난리난 친자검사",
+      "summary": "dogdrip에서 조회수 미수집, 댓글 98로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 8,
+      "type": "원문 검증 대기",
+      "channel": "etoland",
+      "title": "평택 노래방 여경 강제 추행 사건 결말",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/평택-노래방-여경-강제-추행-사건-결말-9302146",
+      "topic": "평택 노래방 여경 강제 추행 사건 결말",
+      "summary": "etoland에서 조회 26,805회, 댓글 155로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 9,
+      "type": "원문 검증 대기",
+      "channel": "fmkorea",
+      "title": "남자직원은 보건실 사용 금지 ㅋㅋㅋㅋㅋ.jpg",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10279253770",
+      "topic": "남자직원은 보건실 사용 금지",
+      "summary": "fmkorea에서 조회 430,000회, 댓글 789로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 10,
+      "type": "원문 검증 대기",
+      "channel": "gasengi",
+      "title": "한국 여행 가이드/한국에서 꼭 가봐야 할 곳, 해외반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=history02&wr_id=113788",
+      "topic": "한국 여행 가이드/한국에서 꼭 가봐야 할 곳, 해외반응",
+      "summary": "gasengi에서 조회 3,144회, 댓글 8로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    }
+  ],
+  "candidates": []
+}
