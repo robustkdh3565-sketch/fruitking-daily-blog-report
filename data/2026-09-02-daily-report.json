@@ -1,0 +1,542 @@
+{
+  "reportDate": "2026-09-02",
+  "checkedAt": "2026-09-02T12:00:00+09:00",
+  "snapshotCount": 1,
+  "assetManifest": "data/2026-08-30-sources.json",
+  "pipelinePolicy": {
+    "publicationHourKst": 12,
+    "confirmedSnapshotRule": "previous-day-11-15-19",
+    "previousDayRuleEffectiveFrom": "2026-08-31",
+    "morningSnapshotUse": "same-day-breaking-candidates-only",
+    "minimumWatchlist": 10,
+    "stopOnValidationFailure": true,
+    "preventRepeatedTopicDays": 7
+  },
+  "researchLineage": [
+    {
+      "name": "커뮤니티 리서치 2026-09-02",
+      "result": "당일 순위·조회·댓글 후보를 확인했으나 원문 본문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-09-02.html"
+    },
+    {
+      "name": "건강·방송 주제 리서치 2026-09-02",
+      "result": "당일 방송 주제와 건강 연결 후보를 확인했으나 최종 원문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-09-02.html"
+    },
+    {
+      "name": "전일 게시물 ID 스냅샷",
+      "result": "동일 게시물 ID의 전후 값이 있을 때만 조회 증가 속도를 사용하며 미확인 값은 0으로 바꾸지 않음",
+      "url": "https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots"
+    }
+  ],
+  "likelyTopicPolicy": {
+    "threshold": 75,
+    "weights": {
+      "verifiedMomentum": 30,
+      "celebrityOrBroadcast": 20,
+      "specificNumberOrBeforeAfter": 15,
+      "immediateActionOrUrgency": 15,
+      "searchExpansion": 10,
+      "fruitkingConnection": 10
+    },
+    "note": "75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."
+  },
+  "watchlistPredictionInputs": [
+    {
+      "priority": 1,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 2,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 3,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 4,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 5,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 6,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 7,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 8,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 9,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 10,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    }
+  ],
+  "watchlistSourceAudits": [
+    {
+      "priority": 1,
+      "publishedAt": "2026-09-01T06:00:03.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 17,595회 확인, 본문 미검증"
+    },
+    {
+      "priority": 2,
+      "publishedAt": "2026-09-01T12:57:12.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 16,144회 확인, 본문 미검증"
+    },
+    {
+      "priority": 3,
+      "publishedAt": "2026-09-01T22:24:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 13,445회 확인, 본문 미검증"
+    },
+    {
+      "priority": 4,
+      "publishedAt": "2026-09-01T12:14:35.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 9,885회 확인, 본문 미검증"
+    },
+    {
+      "priority": 5,
+      "publishedAt": "2026-09-01T15:50:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 33,569회 확인, 본문 미검증"
+    },
+    {
+      "priority": 6,
+      "publishedAt": "2026-09-01T08:29:17.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 12,038회 확인, 본문 미검증"
+    },
+    {
+      "priority": 7,
+      "publishedAt": "2026-09-01T10:07:08.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회수 미수집, 본문 미검증"
+    },
+    {
+      "priority": 8,
+      "publishedAt": "2026-09-01T01:16:25.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 22,030회 확인, 본문 미검증"
+    },
+    {
+      "priority": 9,
+      "publishedAt": "2026-09-01T06:37:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 980,000회 확인, 본문 미검증"
+    },
+    {
+      "priority": 10,
+      "publishedAt": "2026-09-02T00:17:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 1,474회 확인, 본문 미검증"
+    }
+  ],
+  "selectedSourceAudits": [
+    {
+      "topicKey": "sbs-foot-health-7329",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155",
+      "sourceBodyVerified": true,
+      "publishedAt": "2026-09-01T09:00:00+09:00",
+      "excerptFacts": [
+        "SBS 공식 페이지는 7329회 방송일을 2026년 9월 1일로 표시한다.",
+        "공식 회차 소개는 발톱과 굳은살의 신호, 발 상처 방치 위험, 집에서 하는 발 건강 운동을 명시한다."
+      ]
+    }
+  ],
+  "missedCandidates": [
+    {
+      "priority": 1,
+      "type": "원문 검증 대기",
+      "channel": "82cook",
+      "title": "여에스더 가정부 아줌마",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234328",
+      "topic": "여에스더 가정부 아줌마",
+      "summary": "82cook에서 조회 17,595회, 댓글 44로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 2,
+      "type": "원문 검증 대기",
+      "channel": "arca",
+      "title": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition D7 96GB 서린 (23,904,100원/무료)",
+      "url": "https://arca.live/b/live/181713848?p=1",
+      "topic": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition D7 96GB 서린 (23,904,100원/무료)",
+      "summary": "arca에서 조회 16,144회, 댓글 175로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 3,
+      "type": "원문 검증 대기",
+      "channel": "bobae",
+      "title": "신이 없다는 증거",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028158&vdate=h",
+      "topic": "신이 없다는 증거",
+      "summary": "bobae에서 조회 13,445회, 댓글 36로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 4,
+      "type": "원문 검증 대기",
+      "channel": "clien",
+      "title": "박선원 문자 유출",
+      "url": "https://www.clien.net/service/board/park/19257031?od=T33&po=0&category=0&groupCd=clien_all",
+      "topic": "박선원 문자 유출",
+      "summary": "clien에서 조회 9,885회, 댓글 33로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 5,
+      "type": "원문 검증 대기",
+      "channel": "dcinside",
+      "title": "[주갤] 하...여자가 결혼에 안달하는 시기가 왔노",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=459316&list_num=100&_dcbest=1&page=1",
+      "topic": "[주갤] 하...여자가 결혼에 안달하는 시기가 왔노",
+      "summary": "dcinside에서 조회 33,569회, 댓글 467로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 6,
+      "type": "원문 검증 대기",
+      "channel": "ddanzi",
+      "title": "[펌]  박경미 페이스 북 .jpg ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "url": "https://www.ddanzi.com/free/893227754",
+      "topic": "[펌]  박경미 페이스 북",
+      "summary": "ddanzi에서 조회 12,038회, 댓글 208로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 7,
+      "type": "원문 검증 대기",
+      "channel": "dogdrip",
+      "title": "자기 빼고 빵 먹었다고 의경에 총 쏜 경찰 ㄷㄷ",
+      "url": "https://www.dogdrip.net/dogdrip/722430228?sort_index=popular&page=1",
+      "topic": "자기 빼고 빵 먹었다고 의경에 총 쏜 경찰",
+      "summary": "dogdrip에서 조회수 미수집, 댓글 183로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 8,
+      "type": "원문 검증 대기",
+      "channel": "etoland",
+      "title": "잭블랙 향년 58세로",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/잭블랙-향년-58세로-9305001",
+      "topic": "잭블랙 향년 58세로",
+      "summary": "etoland에서 조회 22,030회, 댓글 48로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 9,
+      "type": "원문 검증 대기",
+      "channel": "fmkorea",
+      "title": "내년이면 출소하는 성범죄자",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10283501614",
+      "topic": "내년이면 출소하는 성범죄자",
+      "summary": "fmkorea에서 조회 980,000회, 댓글 1,060로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 10,
+      "type": "원문 검증 대기",
+      "channel": "gasengi",
+      "title": "中, 한국인들 수박 구입은 부의 상징? 中 비웃는 일본인들, 일본반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=history02&wr_id=113843",
+      "topic": "中, 한국인들 수박 구입은 부의 상징? 中 비웃는 일본인들, 일본반응",
+      "summary": "gasengi에서 조회 1,474회, 댓글 5로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    }
+  ],
+  "candidates": [
+    {
+      "topicKey": "sbs-foot-health-7329",
+      "community": "SBS 좋은아침",
+      "sourceKind": "broadcast",
+      "broadcaster": "SBS",
+      "programName": "좋은아침",
+      "episode": "7329회",
+      "broadcastDate": "2026-09-01",
+      "title": "똑똑똑! 고민상담소",
+      "optimizedTitle": "발톱과 굳은살이 보내는 신호, 발 상처를 그냥 두면 안 되는 이유",
+      "searchIntent": "발톱과 굳은살, 발 상처가 보내는 신호와 안전한 발 관리법을 찾는 정보 검색",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155",
+      "publishedAt": "2026-09-01T09:00:00+09:00",
+      "ageHours": 27,
+      "viewsCollected": false,
+      "views": null,
+      "comments": null,
+      "viewVelocity": null,
+      "velocityObserved": false,
+      "snapshotRefs": [],
+      "platformRank": 1,
+      "viewVelocityPercentile": 0,
+      "viewCountPercentile": 0,
+      "platformRankPercentile": 1,
+      "engagementPercentile": 0,
+      "topicSignalPercentile": 0.95,
+      "engagementEvidenceType": "당일 건강·방송 리서치의 공식 방송 후보 1위",
+      "sourceBodyVerified": true,
+      "synopsisVerified": true,
+      "factOpinionSeparated": true,
+      "reactionsVerified": true,
+      "synopsis": "SBS 좋은아침 7329회 공식 다시보기는 2026년 9월 1일 방송으로, 발톱과 굳은살이 주는 건강 신호, 발에 난 상처를 방치하면 안 되는 이유, 집에서 쉽게 하는 발 건강 운동을 소개한다고 명시한다. 글은 해당 공식 줄거리와 국내 공공기관 발 관리 자료를 구분해 구성한다.",
+      "reactions": [
+        "SBS 공식 회차와 방송일 확인",
+        "공식 소개문에서 발톱·굳은살·상처·운동 항목 확인",
+        "방송 조회수는 비공개라 추정하지 않음"
+      ],
+      "directHealthLinkScore": 8,
+      "titleIntroMatchScore": 4,
+      "bodyReconnectScore": 3,
+      "searchSolutionScore": 10,
+      "officialEvidenceScore": 5,
+      "fruitkingUspScore": 4,
+      "uspAngle": "과일·채소·요구르트를 치료 표현 없이 균형 잡힌 식사의 일부로 연결",
+      "articleFile": "articles/2026-09-02-01-foot-health.md",
+      "keywords": [
+        "발 건강",
+        "발 상처",
+        "당뇨발",
+        "굳은살 관리"
+      ],
+      "hashtags": [
+        "#발건강",
+        "#발상처",
+        "#당뇨발",
+        "#굳은살",
+        "#발톱관리",
+        "#당뇨병합병증",
+        "#건강정보",
+        "#좋은아침"
+      ],
+      "sourceAttempts": [
+        {
+          "type": "direct",
+          "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155",
+          "reachable": true,
+          "bodyVerified": true,
+          "sameTopic": true,
+          "synopsisVerified": true,
+          "reactionsVerified": true
+        }
+      ],
+      "officialEvidence": [
+        {
+          "organization": "질병관리청 국가건강정보포털",
+          "title": "당뇨병성 족부병증",
+          "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6692",
+          "fact": "당뇨병 환자의 발 상처 조기 진료와 매일 발 상태 관찰을 안내한다."
+        },
+        {
+          "organization": "질병관리청 국가건강정보포털",
+          "title": "당뇨병 합병증(만성 합병증)",
+          "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2351",
+          "fact": "당뇨병 발 질환의 정기 평가와 상처 발생 시 진료 필요성을 설명한다."
+        },
+        {
+          "organization": "식품의약품안전처 식품안전나라",
+          "title": "식품영양성분 데이터베이스",
+          "url": "https://various.foodsafetykorea.go.kr/nutrient/",
+          "fact": "식품별 영양성분을 확인하고 비교할 수 있는 공식 데이터베이스다."
+        }
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Foot_on_white_background.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Foot_on_white_background.jpg",
+          "alt": "발 상태를 확인하는 장면",
+          "placement": "도입부 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Diabetic_foot.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Diabetic_foot.jpg",
+          "alt": "당뇨병성 발 관리 참고 이미지",
+          "placement": "당뇨발 설명 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Athletic_shoes.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Athletic_shoes.jpg",
+          "alt": "발에 맞는 신발 선택",
+          "placement": "신발 선택 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Walking_for_health.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Walking_for_health.jpg",
+          "alt": "안전하게 걷는 사람",
+          "placement": "운동 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Healthy_meal.jpg",
+          "alt": "과일과 채소가 포함된 균형 잡힌 식사",
+          "placement": "식사 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        }
+      ]
+    }
+  ],
+  "sourceRecoveryCandidates": [],
+  "candidateShortfall": [
+    {
+      "topicKey": "watch-1",
+      "title": "여에스더 가정부 아줌마",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234328",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-2",
+      "title": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition D7 96GB 서린 (23,904,100원/무료)",
+      "url": "https://arca.live/b/live/181713848?p=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-3",
+      "title": "신이 없다는 증거",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028158&vdate=h",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-4",
+      "title": "박선원 문자 유출",
+      "url": "https://www.clien.net/service/board/park/19257031?od=T33&po=0&category=0&groupCd=clien_all",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-5",
+      "title": "[주갤] 하...여자가 결혼에 안달하는 시기가 왔노",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=459316&list_num=100&_dcbest=1&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-6",
+      "title": "[펌]  박경미 페이스 북 .jpg ㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "url": "https://www.ddanzi.com/free/893227754",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-7",
+      "title": "자기 빼고 빵 먹었다고 의경에 총 쏜 경찰 ㄷㄷ",
+      "url": "https://www.dogdrip.net/dogdrip/722430228?sort_index=popular&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-8",
+      "title": "잭블랙 향년 58세로",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/잭블랙-향년-58세로-9305001",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-9",
+      "title": "내년이면 출소하는 성범죄자",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10283501614",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-10",
+      "title": "中, 한국인들 수박 구입은 부의 상징? 中 비웃는 일본인들, 일본반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=history02&wr_id=113843",
+      "reason": "본문·첨부물 미확인"
+    }
+  ],
+  "sourceRecoveryRun": {
+    "executed": false,
+    "recoveredTopicKeys": [],
+    "checkedAt": "2026-09-02T03:30:30.199Z"
+  }
+}

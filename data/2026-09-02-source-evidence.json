@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-09-02",
+  "snapshotDate": "2026-09-01",
+  "generatedAt": "2026-09-02T03:30:30.853Z",
+  "records": [
+    {
+      "topicKey": "sbs-foot-health-7329",
+      "postId": "/programTemplate/amp/vod/goodmorning/22000635155",
+      "title": "똑똑똑! 고민상담소",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155",
+      "publishedAt": "2026-09-01T09:00:00+09:00",
+      "sourceBodyVerified": true,
+      "excerptFacts": [
+        "SBS 공식 페이지는 7329회 방송일을 2026년 9월 1일로 표시한다.",
+        "공식 회차 소개는 발톱과 굳은살의 신호, 발 상처 방치 위험, 집에서 하는 발 건강 운동을 명시한다."
+      ],
+      "snapshotFiles": [],
+      "views": null,
+      "comments": null,
+      "reactions": null,
+      "rank": 1,
+      "evidenceHash": "741dc720a6a4d1dc087a07196399e0d02fee8ca3dba9632c899c15f1036cda22"
+    }
+  ]
+}
