@@ -1,0 +1,315 @@
+{
+  "reportDate": "2026-09-03",
+  "communityDays": 6,
+  "healthDays": 5,
+  "completeDays": 5,
+  "phase": "임시 누적",
+  "keywords": [
+    {
+      "keyword": "통증과 위험 신호",
+      "terms": [
+        "통증",
+        "저림",
+        "목디스크",
+        "경추척수증",
+        "허리"
+      ],
+      "hits": 5,
+      "days": 6,
+      "sources": 5,
+      "urls": [
+        "http://www.82cook.com/entiz/read.php?bn=15&num=4233269",
+        "https://www.ppomppu.co.kr/zboard/view.php?id=humor&no=778824",
+        "https://theqoo.net/hot/4333581649"
+      ],
+      "score": 100,
+      "state": "▲ 상승",
+      "eventKeys": [
+        "82cook.com/entiz/read.php?bn=15&num=4233269",
+        "ppomppu.co.kr/zboard/view.php?id=humor&no=778824",
+        "theqoo.net/hot/4333581649",
+        "todayhumor.co.kr/board/view.php?table=humorbest&no=1797456",
+        "queen.co.kr/news/articleView.html?idxno=462271"
+      ],
+      "changeReason": "누적 점수 92→100"
+    },
+    {
+      "keyword": "생활 루틴과 자기관리",
+      "terms": [
+        "생활 루틴",
+        "생활 패턴",
+        "자기관리",
+        "수면",
+        "좌식"
+      ],
+      "hits": 5,
+      "days": 5,
+      "sources": 4,
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=dcbest&no=458478&list_num=100&_dcbest=1&page=1",
+        "https://pann.nate.com/talk/375602205",
+        "https://www.inven.co.kr/board/webzine/2097/2721950"
+      ],
+      "score": 96,
+      "state": "▲ 상승",
+      "eventKeys": [
+        "gall.dcinside.com/board/view/?id=dcbest&no=458478&list_num=100&_dcbest=1&page=1",
+        "pann.nate.com/talk/375602205",
+        "inven.co.kr/board/webzine/2097/2721950",
+        "gall.dcinside.com/board/view/?id=dcbest&no=459626&list_num=100&_dcbest=1&page=1",
+        "m.imbc.com/program/1002831100000100000"
+      ],
+      "changeReason": "누적 점수 91→96"
+    },
+    {
+      "keyword": "체중 감량과 유지",
+      "terms": [
+        "체중",
+        "감량",
+        "다이어트",
+        "비만",
+        "마운자로",
+        "위고비"
+      ],
+      "hits": 4,
+      "days": 5,
+      "sources": 4,
+      "urls": [
+        "https://theqoo.net/hot/4330612152",
+        "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10282143398",
+        "https://www.dogdrip.net/dogdrip/722644418?sort_index=popular&page=1"
+      ],
+      "score": 92,
+      "state": "▲ 상승",
+      "eventKeys": [
+        "theqoo.net/hot/4330612152",
+        "fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10282143398",
+        "dogdrip.net/dogdrip/722644418?sort_index=popular&page=1",
+        "enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column"
+      ],
+      "changeReason": "누적 점수 87→92"
+    },
+    {
+      "keyword": "뇌 건강과 가족 간병",
+      "terms": [
+        "치매",
+        "뇌경색",
+        "간병",
+        "뇌 건강"
+      ],
+      "hits": 3,
+      "days": 5,
+      "sources": 3,
+      "urls": [
+        "https://m.imbc.com/program/1000832100000100000",
+        "https://enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column",
+        "https://m.imbc.com/VOD/VodView?broadcastID=1000832104734100000&amp;progCode=1000832100000100000&amp;type=Prevod"
+      ],
+      "score": 85,
+      "state": "▲ 상승",
+      "eventKeys": [
+        "m.imbc.com/program/1000832100000100000",
+        "enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column",
+        "m.imbc.com/VOD/VodView?broadcastID=1000832104734100000&amp;progCode=1000832100000100000&amp;type=Prevod"
+      ],
+      "changeReason": "누적 점수 73→85"
+    },
+    {
+      "keyword": "아침",
+      "terms": [
+        "아침"
+      ],
+      "dynamic": true,
+      "hits": 6,
+      "days": 5,
+      "sources": 6,
+      "urls": [
+        "https://www.etoland.co.kr/hit/etohumor07/view/990원-이케아-아침식사-실물-jpg-9297807",
+        "https://www.ddanzi.com/index.php?mid=free&page=1&document_srl=893163641&statusList=BEST%2CHOTBEST%2CBESTAC%2CHOTBESTAC",
+        "https://pann.nate.com/talk/375601538"
+      ],
+      "score": 84,
+      "state": "● 유지",
+      "eventKeys": [
+        "etoland.co.kr/hit/etohumor07/view/990원-이케아-아침식사-실물-jpg-9297807",
+        "ddanzi.com/index.php?mid=free&page=1&document_srl=893163641&statusList=BEST,HOTBEST,BESTAC,HOTBESTAC",
+        "pann.nate.com/talk/375601538",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155"
+      ],
+      "changeReason": "누적 점수 84 유지"
+    },
+    {
+      "keyword": "장 건강과 검사",
+      "terms": [
+        "대장",
+        "혈변",
+        "대장내시경",
+        "장 건강",
+        "식이섬유"
+      ],
+      "hits": 2,
+      "days": 5,
+      "sources": 2,
+      "urls": [
+        "https://theqoo.net/hot/4332514220",
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625"
+      ],
+      "score": 77,
+      "state": "● 유지",
+      "eventKeys": [
+        "theqoo.net/hot/4332514220",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625"
+      ],
+      "changeReason": "누적 점수 77 유지"
+    },
+    {
+      "keyword": "좋은아침",
+      "terms": [
+        "좋은아침"
+      ],
+      "dynamic": true,
+      "hits": 3,
+      "days": 5,
+      "sources": 3,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155"
+      ],
+      "score": 76,
+      "state": "● 유지",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155"
+      ],
+      "changeReason": "누적 점수 76 유지"
+    },
+    {
+      "keyword": "근육과 노년 건강",
+      "terms": [
+        "근육",
+        "골절",
+        "골다공증",
+        "낙상"
+      ],
+      "hits": 2,
+      "days": 5,
+      "sources": 2,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/rankingsongs/22000634414",
+        "https://m.imbc.com/program/1000832100000100000"
+      ],
+      "score": 74,
+      "state": "● 유지",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/rankingsongs/22000634414",
+        "m.imbc.com/program/1000832100000100000"
+      ],
+      "changeReason": "누적 점수 74 유지"
+    },
+    {
+      "keyword": "수면마취",
+      "terms": [
+        "수면마취"
+      ],
+      "dynamic": true,
+      "hits": 2,
+      "days": 2,
+      "sources": 2,
+      "urls": [
+        "https://www.inven.co.kr/board/webzine/2097/2721950",
+        "https://gall.dcinside.com/board/view/?id=dcbest&no=459626&list_num=100&_dcbest=1&page=1"
+      ],
+      "score": 46,
+      "state": "NEW",
+      "eventKeys": [
+        "inven.co.kr/board/webzine/2097/2721950",
+        "gall.dcinside.com/board/view/?id=dcbest&no=459626&list_num=100&_dcbest=1&page=1"
+      ],
+      "changeReason": "전일 분석에 없던 새 키워드"
+    },
+    {
+      "keyword": "당류와 저당 식습관",
+      "terms": [
+        "당류",
+        "설탕",
+        "저당",
+        "첨가당"
+      ],
+      "hits": 1,
+      "days": 1,
+      "sources": 1,
+      "urls": [
+        "https://ygosu.com/board/real_article/food/98174/?list_context=real_article&type=group0&page=1"
+      ],
+      "score": 34,
+      "state": "NEW",
+      "eventKeys": [
+        "ygosu.com/board/real_article/food/98174/?list_context=real_article&type=group0&page=1"
+      ],
+      "changeReason": "전일 분석에 없던 새 키워드"
+    }
+  ],
+  "themes": [
+    {
+      "core": "통증과 위험 신호",
+      "adjacent": [
+        "저림",
+        "일상 동작 변화",
+        "진료 시점"
+      ],
+      "title": "온라인 통증 팁을 따라 하기 전에 볼 위험 신호",
+      "bridge": "즉시 실천 팁을 안전 확인 콘텐츠로 확장",
+      "origin": "편집 보완",
+      "evidenceCount": 0
+    },
+    {
+      "core": "생활 루틴과 자기관리",
+      "adjacent": [
+        "수면마취"
+      ],
+      "title": "하루를 무너뜨리는 생활 패턴부터 바꾸는 작은 습관",
+      "bridge": "공감형 생활 이슈를 실행 가능한 루틴으로 전환",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 2
+    },
+    {
+      "core": "체중 감량과 유지",
+      "adjacent": [
+        "뇌 건강과 가족 간병"
+      ],
+      "title": "감량 숫자보다 오래 유지되는 식사 루틴",
+      "bridge": "감량 이슈를 중단 후 유지 행동으로 확장",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    },
+    {
+      "core": "뇌 건강과 가족 간병",
+      "adjacent": [
+        "근육과 노년 건강",
+        "체중 감량과 유지"
+      ],
+      "title": "치매보다 먼저 가족이 확인해야 할 생활 변화",
+      "bridge": "인물 방송을 가족의 관찰·진료 질문으로 확장",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    },
+    {
+      "core": "장 건강과 검사",
+      "adjacent": [
+        "아침",
+        "좋은아침"
+      ],
+      "title": "장 건강 식단과 병원 검사를 구분해야 하는 순간",
+      "bridge": "생활 식단과 의료적 위험 신호를 분리",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    }
+  ],
+  "uniqueEvents": 897,
+  "generatedAt": "2026-09-03T03:54:53.063Z",
+  "previousSnapshot": "2026-09-02-weekly-insights.json"
+}

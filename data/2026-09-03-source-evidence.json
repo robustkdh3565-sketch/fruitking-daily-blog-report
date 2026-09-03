@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-09-03",
+  "snapshotDate": "2026-09-02",
+  "generatedAt": "2026-09-03T03:54:51.276Z",
+  "records": [
+    {
+      "topicKey": "sbs-gut-microbiome-7331",
+      "postId": "/programTemplate/amp/vod/goodmorning/22000635242",
+      "title": "슬기롭게 미생물과 공생하는 법",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242",
+      "publishedAt": "2026-09-03T09:00:00+09:00",
+      "sourceBodyVerified": true,
+      "excerptFacts": [
+        "SBS 공식 페이지는 7331회 방송일을 2026년 9월 3일로 표시한다.",
+        "공식 회차 소개는 장내 미생물, 항생제와 유산균 속설, 발효식품 활용법을 명시한다."
+      ],
+      "snapshotFiles": [],
+      "views": null,
+      "comments": null,
+      "reactions": null,
+      "rank": 1,
+      "evidenceHash": "a9d8f48aedebdada4cb977843df1c4c17121e909dfbcf0fba7521d0a636f24df"
+    }
+  ]
+}

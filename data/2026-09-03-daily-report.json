@@ -1,0 +1,542 @@
+{
+  "reportDate": "2026-09-03",
+  "checkedAt": "2026-09-03T12:00:00+09:00",
+  "snapshotCount": 1,
+  "assetManifest": "data/2026-08-30-sources.json",
+  "pipelinePolicy": {
+    "publicationHourKst": 12,
+    "confirmedSnapshotRule": "previous-day-11-15-19",
+    "previousDayRuleEffectiveFrom": "2026-08-31",
+    "morningSnapshotUse": "same-day-breaking-candidates-only",
+    "minimumWatchlist": 10,
+    "stopOnValidationFailure": true,
+    "preventRepeatedTopicDays": 7
+  },
+  "researchLineage": [
+    {
+      "name": "커뮤니티 리서치 2026-09-03",
+      "result": "당일 순위·조회·댓글 후보를 확인했으나 원문 본문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-09-03.html"
+    },
+    {
+      "name": "건강·방송 주제 리서치 2026-09-03",
+      "result": "당일 방송 주제와 건강 연결 후보를 확인했으나 최종 원문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-09-03.html"
+    },
+    {
+      "name": "전일 게시물 ID 스냅샷",
+      "result": "동일 게시물 ID의 전후 값이 있을 때만 조회 증가 속도를 사용하며 미확인 값은 0으로 바꾸지 않음",
+      "url": "https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots"
+    }
+  ],
+  "likelyTopicPolicy": {
+    "threshold": 75,
+    "weights": {
+      "verifiedMomentum": 30,
+      "celebrityOrBroadcast": 20,
+      "specificNumberOrBeforeAfter": 15,
+      "immediateActionOrUrgency": 15,
+      "searchExpansion": 10,
+      "fruitkingConnection": 10
+    },
+    "note": "75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."
+  },
+  "watchlistPredictionInputs": [
+    {
+      "priority": 1,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 2,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 3,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 4,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 5,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 6,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 7,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 8,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 9,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 10,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    }
+  ],
+  "watchlistSourceAudits": [
+    {
+      "priority": 1,
+      "publishedAt": "2026-09-02T07:33:15.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 21,287회 확인, 본문 미검증"
+    },
+    {
+      "priority": 2,
+      "publishedAt": "2026-09-01T12:10:48.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 9,118회 확인, 본문 미검증"
+    },
+    {
+      "priority": 3,
+      "publishedAt": "2026-09-02T20:37:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 22,696회 확인, 본문 미검증"
+    },
+    {
+      "priority": 4,
+      "publishedAt": "2026-09-02T12:39:19.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 9,760회 확인, 본문 미검증"
+    },
+    {
+      "priority": 5,
+      "publishedAt": "2026-09-03T01:25:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 37,727회 확인, 본문 미검증"
+    },
+    {
+      "priority": 6,
+      "publishedAt": "2026-09-02T06:02:15.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 11,637회 확인, 본문 미검증"
+    },
+    {
+      "priority": 7,
+      "publishedAt": "2026-09-02T13:07:09.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회수 미수집, 본문 미검증"
+    },
+    {
+      "priority": 8,
+      "publishedAt": "2026-09-01T22:53:22.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 21,527회 확인, 본문 미검증"
+    },
+    {
+      "priority": 9,
+      "publishedAt": "2026-09-02T15:32:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 750,000회 확인, 본문 미검증"
+    },
+    {
+      "priority": 10,
+      "publishedAt": "2026-09-03T00:11:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 4,425회 확인, 본문 미검증"
+    }
+  ],
+  "selectedSourceAudits": [
+    {
+      "topicKey": "sbs-gut-microbiome-7331",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242",
+      "sourceBodyVerified": true,
+      "publishedAt": "2026-09-03T09:00:00+09:00",
+      "excerptFacts": [
+        "SBS 공식 페이지는 7331회 방송일을 2026년 9월 3일로 표시한다.",
+        "공식 회차 소개는 장내 미생물, 항생제와 유산균 속설, 발효식품 활용법을 명시한다."
+      ]
+    }
+  ],
+  "missedCandidates": [
+    {
+      "priority": 1,
+      "type": "원문 검증 대기",
+      "channel": "82cook",
+      "title": "남편 친구가 늦게 베트남여자와 국결했는데요",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234713",
+      "topic": "남편 친구가 늦게 베트남여자와 국결했는데요",
+      "summary": "82cook에서 조회 21,287회, 댓글 70로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 2,
+      "type": "원문 검증 대기",
+      "channel": "arca",
+      "title": "현재 메챈 요약",
+      "url": "https://arca.live/b/live/181709061?p=1",
+      "topic": "메챈 요약",
+      "summary": "arca에서 조회 9,118회, 댓글 115로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 3,
+      "type": "원문 검증 대기",
+      "channel": "bobae",
+      "title": "일본 교도소 식사량",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028479&vdate=h",
+      "topic": "일본 교도소 식사량",
+      "summary": "bobae에서 조회 22,696회, 댓글 64로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 4,
+      "type": "원문 검증 대기",
+      "channel": "clien",
+      "title": "용혜인 어수룩한줄 알았는데 전혀 아니네요",
+      "url": "https://www.clien.net/service/board/park/19257534?od=T33&po=0&category=0&groupCd=clien_all",
+      "topic": "용혜인 어수룩한줄 알았는데 전혀 아니네요",
+      "summary": "clien에서 조회 9,760회, 댓글 19로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 5,
+      "type": "원문 검증 대기",
+      "channel": "dcinside",
+      "title": "[리갤] 구버지 나초 2행시 .jpg",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=459682&list_num=100&_dcbest=1&page=1",
+      "topic": "[리갤] 구버지 나초 2행시",
+      "summary": "dcinside에서 조회 37,727회, 댓글 237로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 6,
+      "type": "원문 검증 대기",
+      "channel": "ddanzi",
+      "title": "강성범 수준 참",
+      "url": "https://www.ddanzi.com/free/893313331",
+      "topic": "강성범 수준 참",
+      "summary": "ddanzi에서 조회 11,637회, 댓글 93로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 7,
+      "type": "원문 검증 대기",
+      "channel": "dogdrip",
+      "title": "현직 승무원 소신발언, 우는 아기보다 그걸로 짜증내고 컴플레인 거는 승객이 더 싫음",
+      "url": "https://www.dogdrip.net/dogdrip/722633451?sort_index=popular&page=1",
+      "topic": "현직 승무원 소신발언, 우는 아기보다 그걸로 짜증내고 컴플레인 거는 승객이 더 싫음",
+      "summary": "dogdrip에서 조회수 미수집, 댓글 418로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 8,
+      "type": "원문 검증 대기",
+      "channel": "etoland",
+      "title": "\"대참사\"난 한국 바둑계.jpg",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/34대참사34난-한국-바둑계-jpg-9307216",
+      "topic": "\"대참사\"난 한국 바둑계",
+      "summary": "etoland에서 조회 21,527회, 댓글 78로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 9,
+      "type": "원문 검증 대기",
+      "channel": "fmkorea",
+      "title": "요즘 회사 신입중에 굉장히 많아졌다는 AI 빌런 ..... Manhwa",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10289732194",
+      "topic": "요즘 회사 신입중에 굉장히 많아졌다는 AI 빌런 ..... Manhwa",
+      "summary": "fmkorea에서 조회 750,000회, 댓글 359로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 10,
+      "type": "원문 검증 대기",
+      "channel": "gasengi",
+      "title": "한국, 전 국민에게 무료 AI 제공, 해외반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=game_translation&wr_id=31919",
+      "topic": "한국, 전 국민에게 무료 AI 제공, 해외반응",
+      "summary": "gasengi에서 조회 4,425회, 댓글 21로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    }
+  ],
+  "candidates": [
+    {
+      "topicKey": "sbs-gut-microbiome-7331",
+      "community": "SBS 좋은아침",
+      "sourceKind": "broadcast",
+      "broadcaster": "SBS",
+      "programName": "좋은아침",
+      "episode": "7331회",
+      "broadcastDate": "2026-09-03",
+      "title": "슬기롭게 미생물과 공생하는 법",
+      "optimizedTitle": "유산균은 항생제와 꼭 같이 먹어야 할까? 장내 미생물과 발효식품 제대로 보기",
+      "searchIntent": "항생제와 유산균 병용, CFU 의미, 발효식품 섭취법을 확인하려는 정보 검색",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242",
+      "publishedAt": "2026-09-03T09:00:00+09:00",
+      "ageHours": 3.8,
+      "viewsCollected": false,
+      "views": null,
+      "comments": null,
+      "viewVelocity": null,
+      "velocityObserved": false,
+      "snapshotRefs": [],
+      "platformRank": 1,
+      "viewVelocityPercentile": 0,
+      "viewCountPercentile": 0,
+      "platformRankPercentile": 1,
+      "engagementPercentile": 0,
+      "topicSignalPercentile": 1,
+      "engagementEvidenceType": "당일 건강·방송 공식 원문 후보 1위",
+      "sourceBodyVerified": true,
+      "synopsisVerified": true,
+      "factOpinionSeparated": true,
+      "reactionsVerified": true,
+      "synopsis": "SBS 좋은아침 7331회 공식 다시보기는 2026년 9월 3일 방송으로, 장내 미생물 생태계, 항생제 복용 시 유산균 병용 속설, 미생물학자의 발효식품 활용법을 다룬다고 명시한다. 원고는 방송 소개와 식약처의 프로바이오틱스·발효식품 표시 자료를 분리해 설명한다.",
+      "reactions": [
+        "SBS 공식 회차와 당일 방송일 확인",
+        "공식 소개문에서 항생제·유산균·발효식품 항목 확인",
+        "공개 조회수가 없어 추정하지 않음"
+      ],
+      "directHealthLinkScore": 8,
+      "titleIntroMatchScore": 4,
+      "bodyReconnectScore": 3,
+      "searchSolutionScore": 10,
+      "officialEvidenceScore": 5,
+      "fruitkingUspScore": 5,
+      "uspAngle": "요구르트·과일·채소·발효식품을 표시 확인과 균형 식사의 관점으로 연결",
+      "articleFile": "articles/2026-09-03-01-gut-microbiome.md",
+      "keywords": [
+        "장내 미생물",
+        "유산균 항생제",
+        "프로바이오틱스 CFU",
+        "발효식품"
+      ],
+      "hashtags": [
+        "#장내미생물",
+        "#유산균",
+        "#프로바이오틱스",
+        "#항생제",
+        "#발효식품",
+        "#장건강",
+        "#CFU",
+        "#좋은아침"
+      ],
+      "sourceAttempts": [
+        {
+          "type": "direct",
+          "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242",
+          "reachable": true,
+          "bodyVerified": true,
+          "sameTopic": true,
+          "synopsisVerified": true,
+          "reactionsVerified": true
+        }
+      ],
+      "officialEvidence": [
+        {
+          "organization": "식품의약품안전처 식품안전나라",
+          "title": "프로바이오틱스 제품 비교정보",
+          "url": "https://foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs082&menu_no=2859&ntctxt_no=1080421",
+          "fact": "프로바이오틱스 제품의 균수, 균종 구성과 표시사항을 함께 확인할 근거를 제공한다."
+        },
+        {
+          "organization": "식품의약품안전처 식품안전나라",
+          "title": "식품통계이야기 발효식품 편",
+          "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs091601&menu_grp=MENU_NEW01&menu_no=3862&ntctxt_no=1090496",
+          "fact": "발효식품의 나트륨과 영양표시 확인 필요성을 설명한다."
+        },
+        {
+          "organization": "식품의약품안전처 K-FIND",
+          "title": "식품영양성분 데이터베이스",
+          "url": "https://various.foodsafetykorea.go.kr/nutrient/general/food/firstList.do",
+          "fact": "요구르트와 발효식품 등 식품별 영양성분을 비교할 수 있다."
+        }
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lactobacillus_sp_01.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Lactobacillus_sp_01.png",
+          "alt": "유산균 현미경 이미지",
+          "placement": "도입부 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yogurt.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Yogurt.jpg",
+          "alt": "플레인 요구르트",
+          "placement": "CFU 설명 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Korean_cuisine-Kimchi-01.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Kimchi-01.jpg",
+          "alt": "발효식품 김치",
+          "placement": "발효식품 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nutrition_Facts_label.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Nutrition_Facts_label.jpg",
+          "alt": "영양성분 표시",
+          "placement": "표시사항 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Healthy_meal.jpg",
+          "alt": "다양한 채소와 과일이 포함된 식사",
+          "placement": "식사 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        }
+      ]
+    }
+  ],
+  "sourceRecoveryCandidates": [],
+  "candidateShortfall": [
+    {
+      "topicKey": "watch-1",
+      "title": "남편 친구가 늦게 베트남여자와 국결했는데요",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234713",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-2",
+      "title": "현재 메챈 요약",
+      "url": "https://arca.live/b/live/181709061?p=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-3",
+      "title": "일본 교도소 식사량",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028479&vdate=h",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-4",
+      "title": "용혜인 어수룩한줄 알았는데 전혀 아니네요",
+      "url": "https://www.clien.net/service/board/park/19257534?od=T33&po=0&category=0&groupCd=clien_all",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-5",
+      "title": "[리갤] 구버지 나초 2행시 .jpg",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=459682&list_num=100&_dcbest=1&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-6",
+      "title": "강성범 수준 참",
+      "url": "https://www.ddanzi.com/free/893313331",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-7",
+      "title": "현직 승무원 소신발언, 우는 아기보다 그걸로 짜증내고 컴플레인 거는 승객이 더 싫음",
+      "url": "https://www.dogdrip.net/dogdrip/722633451?sort_index=popular&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-8",
+      "title": "\"대참사\"난 한국 바둑계.jpg",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/34대참사34난-한국-바둑계-jpg-9307216",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-9",
+      "title": "요즘 회사 신입중에 굉장히 많아졌다는 AI 빌런 ..... Manhwa",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10289732194",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-10",
+      "title": "한국, 전 국민에게 무료 AI 제공, 해외반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=game_translation&wr_id=31919",
+      "reason": "본문·첨부물 미확인"
+    }
+  ],
+  "sourceRecoveryRun": {
+    "executed": false,
+    "recoveredTopicKeys": [],
+    "checkedAt": "2026-09-03T03:54:50.116Z"
+  }
+}

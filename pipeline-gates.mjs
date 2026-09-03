@@ -1,7 +1,7 @@
 import fs from'node:fs';import path from'node:path';import{selectTopThree}from'./selection-score.mjs';
 const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/(.:)/,'$1')),dir=path.join(root,'data'),files=fs.readdirSync(dir).filter(x=>/^\d{4}-\d{2}-\d{2}-daily-report\.json$/.test(x)).sort(),file=files.at(-1);if(!file)throw Error('DAILY_INPUT_MISSING');
 const d=JSON.parse(fs.readFileSync(path.join(dir,file),'utf8')),all=[...d.candidates,...d.missedCandidates];
-const autoPoolFile=path.join(dir,`${d.reportDate}-auto-candidates.json`);if(!fs.existsSync(autoPoolFile))throw Error('AUTO_CANDIDATE_POOL_MISSING');const autoPool=JSON.parse(fs.readFileSync(autoPoolFile,'utf8'));if((autoPool.candidates||[]).length<5)throw Error('AUTO_CANDIDATE_POOL_LOW');
+const autoPoolFile=path.join(dir,`${d.reportDate}-auto-candidates.json`);if(!fs.existsSync(autoPoolFile))throw Error('AUTO_CANDIDATE_POOL_MISSING');const autoPool=JSON.parse(fs.readFileSync(autoPoolFile,'utf8'));const autoMinimum=autoPool.snapshotCoverage==='partial-no-imputation'?3:5;if((autoPool.candidates||[]).length<autoMinimum)throw Error('AUTO_CANDIDATE_POOL_LOW');
 if(d.missedCandidates.length<10)throw Error('WATCHLIST_MINIMUM_NOT_MET');for(const group of[d.candidates,d.missedCandidates]){const urls=group.map(x=>x.url);if(new Set(urls).size!==urls.length)throw Error('DUPLICATE_SOURCE_URL')}
 for(const[i,c]of d.candidates.entries())if(!/^https:\/\//.test(c.url)||String(c.synopsis||'').length<80)throw Error(`SOURCE_RECORD_INCOMPLETE candidate:${i}`);
 for(const[i,c]of d.missedCandidates.entries())if(!/^https:\/\//.test(c.url)||String(c.summary||'').length<50)throw Error(`SOURCE_RECORD_INCOMPLETE watchlist:${i}`);

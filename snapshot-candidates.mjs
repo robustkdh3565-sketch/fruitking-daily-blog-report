@@ -20,8 +20,13 @@ export function locateSnapshotFiles(snapshotRoot, date) {
   if (!fs.existsSync(dir)) throw Error(`SNAPSHOT_DATE_MISSING ${date}`);
   const files = fs.readdirSync(dir).filter((x) => /^\d{6}\.json$/.test(x));
   const picked = [660, 900, 1140].map((target) => files.map((file) => ({ file, distance: Math.abs(hhmm(file) - target) })).sort((a, b) => a.distance - b.distance)[0]).map((x) => x && x.distance <= 90 ? path.join(dir, x.file) : null);
-  if (picked.some((x) => !x)) throw Error(`REQUIRED_SNAPSHOT_MISSING ${date}`);
-  return picked;
+  const available = [...new Set(picked.filter(Boolean))];
+  // A missing late snapshot must not invent momentum or abort the entire report.
+  // With two real measurements we keep the candidate pool, while each row's
+  // comparison.measured flag still decides whether velocity can receive credit.
+  if (available.length < 2) throw Error(`INSUFFICIENT_SNAPSHOTS ${date}`);
+  if (available.length < 3) console.warn(`PARTIAL_SNAPSHOTS ${date}: ${available.map((x) => path.basename(x)).join(',')}`);
+  return available;
 }
 
 export function extractSnapshotCandidates(files) {

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-09-03",
+  "snapshotDate": "2026-09-02",
+  "generatedAt": "2026-09-03T03:54:50.324Z",
+  "snapshotFiles": [
+    "110000.json",
+    "150000.json"
+  ],
+  "snapshotCoverage": "partial-no-imputation",
+  "candidates": [
+    {
+      "postId": "theqoo.net/hot/4332514220",
+      "community": "theqoo",
+      "title": "생각보다 채소 과일 권장량만큼 안 먹는 사람들 진짜 많은 우리나라.jpg (대장암 폭증)",
+      "url": "https://theqoo.net/hot/4332514220",
+      "publishedAt": "2026-09-01T16:13:00.000Z",
+      "ageHours": 13.823611111111111,
+      "ageBucket": "12-24",
+      "views": 93889,
+      "comments": 505,
+      "reactions": 0,
+      "rank": 2,
+      "viewsPerHour": 2309.5884745295375,
+      "velocityObserved": true,
+      "communityViewPercentile": 1,
+      "communityEngagementPercentile": 0.6666666666666666,
+      "communityVelocityPercentile": 0.6666666666666666,
+      "platformRankPercentile": 0.9,
+      "matchedGroups": [
+        "directHealth",
+        "foodRoutine"
+      ],
+      "sourceSnapshot": "150000.json",
+      "checkedAt": "2026-09-02T15:02:25+09:00",
+      "automaticDiscoveryScore": 78.08
+    },
+    {
+      "postId": "bobaedream.co.kr/view?code=best&No=1028132&vdate=h",
+      "community": "bobae",
+      "title": "라디오 부스에 커피 배달 온 다방녀",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028132&vdate=h",
+      "publishedAt": "2026-09-01T19:58:00.000Z",
+      "ageHours": 10.073611111111111,
+      "ageBucket": "6-12",
+      "views": 10539,
+      "comments": 7,
+      "reactions": 93,
+      "rank": 5,
+      "viewsPerHour": 0,
+      "velocityObserved": true,
+      "communityViewPercentile": 0.7142857142857143,
+      "communityEngagementPercentile": 0.42857142857142855,
+      "communityVelocityPercentile": 1,
+      "platformRankPercentile": 0.6,
+      "matchedGroups": [
+        "foodRoutine"
+      ],
+      "sourceSnapshot": "150000.json",
+      "checkedAt": "2026-09-02T15:02:25+09:00",
+      "automaticDiscoveryScore": 76.46
+    },
+    {
+      "postId": "inven.co.kr/board/webzine/2097/2721950",
+      "community": "inven",
+      "title": "수면마취 적나라하게 보여준 아이돌 츠자..",
+      "url": "https://www.inven.co.kr/board/webzine/2097/2721950",
+      "publishedAt": "2026-09-01T14:03:00.000Z",
+      "ageHours": 11.960555555555555,
+      "ageBucket": "6-12",
+      "views": 9155,
+      "comments": 31,
+      "reactions": 310,
+      "rank": 6,
+      "viewsPerHour": null,
+      "velocityObserved": false,
+      "communityViewPercentile": 0.5714285714285714,
+      "communityEngagementPercentile": 0.8571428571428571,
+      "communityVelocityPercentile": null,
+      "platformRankPercentile": 0.5,
+      "matchedGroups": [
+        "directHealth"
+      ],
+      "sourceSnapshot": "110000.json",
+      "checkedAt": "2026-09-02T11:00:38+09:00",
+      "automaticDiscoveryScore": 41.91
+    },
+    {
+      "postId": "bbs.ruliweb.com/community/board/300143/read/76523992",
+      "community": "ruliweb",
+      "title": "하체운동한 다음날 특징",
+      "url": "https://bbs.ruliweb.com/community/board/300143/read/76523992",
+      "publishedAt": "2026-09-01T22:01:00.000Z",
+      "ageHours": 3.993888888888889,
+      "ageBucket": "0-6",
+      "views": 15412,
+      "comments": 19,
+      "reactions": 190,
+      "rank": 10,
+      "viewsPerHour": null,
+      "velocityObserved": false,
+      "communityViewPercentile": 0.08333333333333333,
+      "communityEngagementPercentile": 0.4166666666666667,
+      "communityVelocityPercentile": null,
+      "platformRankPercentile": 0.09999999999999998,
+      "matchedGroups": [
+        "directHealth"
+      ],
+      "sourceSnapshot": "110000.json",
+      "checkedAt": "2026-09-02T11:00:38+09:00",
+      "automaticDiscoveryScore": 24.78
+    }
+  ],
+  "evidenceHash": "dd1661f05f83d308ddf00da632a13354f276bc7e5ad8bb0d653cec33b15c3a15"
+}
