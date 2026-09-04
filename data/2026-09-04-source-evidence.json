@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-09-04",
+  "snapshotDate": "2026-09-03",
+  "generatedAt": "2026-09-04T03:04:47.228Z",
+  "records": [
+    {
+      "topicKey": "lee-suhyun-weight-loss-sep3",
+      "postId": "/view/NISX20260902_0003773428",
+      "title": "악뮤 이수현 30kg 감량",
+      "url": "https://nwww.newsis.com/view/NISX20260902_0003773428",
+      "publishedAt": "2026-09-03T01:40:00+09:00",
+      "sourceBodyVerified": true,
+      "excerptFacts": [
+        "뉴시스 기사는 2026년 9월 3일 등록됐고 이수현이 최고 체중 대비 약 30kg을 감량했다고 직접 밝힌 사실을 인용한다.",
+        "전일 인벤 스냅샷은 동일 주제 게시물의 조회 10,129회, 댓글 49개와 시간당 증가 약 1,072회를 기록한다."
+      ],
+      "snapshotFiles": [],
+      "views": 10129,
+      "comments": 49,
+      "reactions": null,
+      "rank": 1,
+      "evidenceHash": "42fcad1d288d7904b04f4f82a29b7df5da244551e543804a7a36740b750f393d"
+    }
+  ]
+}

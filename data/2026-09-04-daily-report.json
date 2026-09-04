@@ -1,0 +1,550 @@
+{
+  "reportDate": "2026-09-04",
+  "checkedAt": "2026-09-04T12:00:00+09:00",
+  "snapshotCount": 1,
+  "assetManifest": "data/2026-08-30-sources.json",
+  "pipelinePolicy": {
+    "publicationHourKst": 12,
+    "confirmedSnapshotRule": "previous-day-11-15-19",
+    "previousDayRuleEffectiveFrom": "2026-08-31",
+    "morningSnapshotUse": "same-day-breaking-candidates-only",
+    "minimumWatchlist": 10,
+    "stopOnValidationFailure": true,
+    "preventRepeatedTopicDays": 7
+  },
+  "researchLineage": [
+    {
+      "name": "커뮤니티 리서치 2026-09-04",
+      "result": "당일 순위·조회·댓글 후보를 확인했으나 원문 본문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-09-04.html"
+    },
+    {
+      "name": "건강·방송 주제 리서치 2026-09-04",
+      "result": "당일 방송 주제와 건강 연결 후보를 확인했으나 최종 원문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-09-04.html"
+    },
+    {
+      "name": "전일 게시물 ID 스냅샷",
+      "result": "동일 게시물 ID의 전후 값이 있을 때만 조회 증가 속도를 사용하며 미확인 값은 0으로 바꾸지 않음",
+      "url": "https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots"
+    }
+  ],
+  "likelyTopicPolicy": {
+    "threshold": 75,
+    "weights": {
+      "verifiedMomentum": 30,
+      "celebrityOrBroadcast": 20,
+      "specificNumberOrBeforeAfter": 15,
+      "immediateActionOrUrgency": 15,
+      "searchExpansion": 10,
+      "fruitkingConnection": 10
+    },
+    "note": "75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."
+  },
+  "watchlistPredictionInputs": [
+    {
+      "priority": 1,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 2,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 3,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 4,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 5,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 6,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 7,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 8,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 9,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 10,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    }
+  ],
+  "watchlistSourceAudits": [
+    {
+      "priority": 1,
+      "publishedAt": "2026-09-03T00:03:37.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 22,114회 확인, 본문 미검증"
+    },
+    {
+      "priority": 2,
+      "publishedAt": "2026-09-03T03:37:46.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 13,236회 확인, 본문 미검증"
+    },
+    {
+      "priority": 3,
+      "publishedAt": "2026-09-03T21:26:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 17,090회 확인, 본문 미검증"
+    },
+    {
+      "priority": 4,
+      "publishedAt": "2026-09-03T14:01:54.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 9,787회 확인, 본문 미검증"
+    },
+    {
+      "priority": 5,
+      "publishedAt": "2026-09-04T01:30:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 19,768회 확인, 본문 미검증"
+    },
+    {
+      "priority": 6,
+      "publishedAt": "2026-09-03T06:35:19.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 12,905회 확인, 본문 미검증"
+    },
+    {
+      "priority": 7,
+      "publishedAt": "2026-09-03T11:07:08.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회수 미수집, 본문 미검증"
+    },
+    {
+      "priority": 8,
+      "publishedAt": "2026-09-03T03:05:29.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 22,660회 확인, 본문 미검증"
+    },
+    {
+      "priority": 9,
+      "publishedAt": "2026-09-03T08:44:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 920,000회 확인, 본문 미검증"
+    },
+    {
+      "priority": 10,
+      "publishedAt": "2026-09-04T00:30:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 3,076회 확인, 본문 미검증"
+    }
+  ],
+  "selectedSourceAudits": [
+    {
+      "topicKey": "lee-suhyun-weight-loss-sep3",
+      "url": "https://nwww.newsis.com/view/NISX20260902_0003773428",
+      "sourceBodyVerified": true,
+      "publishedAt": "2026-09-03T01:40:00+09:00",
+      "excerptFacts": [
+        "뉴시스 기사는 2026년 9월 3일 등록됐고 이수현이 최고 체중 대비 약 30kg을 감량했다고 직접 밝힌 사실을 인용한다.",
+        "전일 인벤 스냅샷은 동일 주제 게시물의 조회 10,129회, 댓글 49개와 시간당 증가 약 1,072회를 기록한다."
+      ]
+    }
+  ],
+  "missedCandidates": [
+    {
+      "priority": 1,
+      "type": "원문 검증 대기",
+      "channel": "82cook",
+      "title": "1억 9천을 은행에 넣어 놨더니",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234898",
+      "topic": "1억 9천을 은행에 넣어 놨더니",
+      "summary": "82cook에서 조회 22,114회, 댓글 23로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 2,
+      "type": "원문 검증 대기",
+      "channel": "arca",
+      "title": "「명조: 워더링 웨이브」여우의 별자리 • 쇄명 캐릭터 플레이 (QHD)",
+      "url": "https://arca.live/b/live/181867490?p=1",
+      "topic": "「명조: 워더링 웨이브」여우의 별자리 • 쇄명 캐릭터 플레이 (QHD)",
+      "summary": "arca에서 조회 13,236회, 댓글 94로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 3,
+      "type": "원문 검증 대기",
+      "channel": "bobae",
+      "title": "주작 같은 여사친의 결혼 썰",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028824&vdate=h",
+      "topic": "주작 같은 여사친의 결혼 썰",
+      "summary": "bobae에서 조회 17,090회, 댓글 26로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 4,
+      "type": "원문 검증 대기",
+      "channel": "clien",
+      "title": "기본소득당 대단하네요 ㅋㅋㅋㅋㅋㅋ",
+      "url": "https://www.clien.net/service/board/park/19258111?od=T33&po=0&category=0&groupCd=clien_all",
+      "topic": "기본소득당 대단하네요",
+      "summary": "clien에서 조회 9,787회, 댓글 36로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 5,
+      "type": "원문 검증 대기",
+      "channel": "dcinside",
+      "title": "[싱갤] 싱글벙글 윈도우 적폐 설정",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=459990&list_num=100&_dcbest=1&page=1",
+      "topic": "[싱갤] 싱글벙글 윈도우 적폐 설정",
+      "summary": "dcinside에서 조회 19,768회, 댓글 153로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 6,
+      "type": "원문 검증 대기",
+      "channel": "ddanzi",
+      "title": "펌) 민티 효과는 대단했다!!",
+      "url": "https://www.ddanzi.com/free/893415802",
+      "topic": "펌) 민티 효과는 대단했다!!",
+      "summary": "ddanzi에서 조회 12,905회, 댓글 49로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 7,
+      "type": "원문 검증 대기",
+      "channel": "dogdrip",
+      "title": "현재 댓글창 불타고있는 웹툰",
+      "url": "https://www.dogdrip.net/dogdrip/722807026?sort_index=popular&page=1",
+      "topic": "댓글창 불타고있는 웹툰",
+      "summary": "dogdrip에서 조회수 미수집, 댓글 236로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 8,
+      "type": "원문 검증 대기",
+      "channel": "etoland",
+      "title": "MC딩동 폭행사건",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/mc딩동-폭행사건-9310073",
+      "topic": "MC딩동 폭행사건",
+      "summary": "etoland에서 조회 22,660회, 댓글 71로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 9,
+      "type": "원문 검증 대기",
+      "channel": "fmkorea",
+      "title": "고도비만 스모선수의 결혼 전 / 후.jpg",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10287958451",
+      "topic": "고도비만 스모선수의 결혼 전 / 후",
+      "summary": "fmkorea에서 조회 920,000회, 댓글 524로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 10,
+      "type": "원문 검증 대기",
+      "channel": "gasengi",
+      "title": "日 언론 \"후퇴하는 일본과 같은 길을 걸어가지 않은 한국\" 일본반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=politics&wr_id=192544",
+      "topic": "日 언론 \"후퇴하는 일본과 같은 길을 걸어가지 않은 한국\" 일본반응",
+      "summary": "gasengi에서 조회 3,076회, 댓글 11로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    }
+  ],
+  "candidates": [
+    {
+      "topicKey": "lee-suhyun-weight-loss-sep3",
+      "community": "인벤·뉴시스",
+      "sourceKind": "official_article",
+      "title": "악뮤 이수현 30kg 감량",
+      "optimizedTitle": "악뮤 이수현 30kg 감량이 다시 화제, 공복 유산소보다 먼저 확인할 것",
+      "searchIntent": "이수현 30kg 감량과 공복 유산소 효과, 안전한 체중 감량 방법을 찾는 검색",
+      "url": "https://nwww.newsis.com/view/NISX20260902_0003773428",
+      "publishedAt": "2026-09-03T01:40:00+09:00",
+      "ageHours": 34.3,
+      "viewsCollected": true,
+      "views": 10129,
+      "comments": 49,
+      "viewVelocity": 1071.71,
+      "velocityObserved": true,
+      "snapshotRefs": [
+        "2026-09-03/150000.json",
+        "2026-09-03/190000.json"
+      ],
+      "platformRank": 1,
+      "viewVelocityPercentile": 0.5,
+      "viewCountPercentile": 1,
+      "platformRankPercentile": 1,
+      "engagementPercentile": 1,
+      "topicSignalPercentile": 1,
+      "engagementEvidenceType": "인벤 19시 실측 조회 10,129·댓글 49·시간당 조회 1,071.7 및 다중 커뮤니티 확산",
+      "sourceBodyVerified": true,
+      "synopsisVerified": true,
+      "factOpinionSeparated": true,
+      "reactionsVerified": true,
+      "synopsis": "9월 3일 여러 커뮤니티에 악뮤 이수현의 30kg 감량 근황이 동시에 확산됐다. 인벤 게시물은 전일 19시 스냅샷에서 조회수 1만129회와 시간당 약 1,072회의 증가가 확인됐다. 뉴시스는 이수현이 SNS에 공개한 근황과 과거 직접 밝힌 약 30kg 감량 사실을 바탕으로 공복 유산소의 안전성을 다뤘다.",
+      "reactions": [
+        "인벤 조회 10,129·댓글 49 실측",
+        "뽐뿌·개드립 등 동일 주제 교차 확산",
+        "공식 기사에서 당사자 공개 사실과 공복 유산소 질문 확인"
+      ],
+      "directHealthLinkScore": 8,
+      "titleIntroMatchScore": 4,
+      "bodyReconnectScore": 3,
+      "searchSolutionScore": 10,
+      "officialEvidenceScore": 5,
+      "fruitkingUspScore": 5,
+      "uspAngle": "과일·채소·요구르트를 치료제가 아닌 지속 가능한 식사 구성과 영양표시 확인으로 연결",
+      "articleFile": "articles/2026-09-04-01-lee-suhyun-weight-loss.md",
+      "keywords": [
+        "이수현 30kg 감량",
+        "공복 유산소",
+        "건강한 다이어트",
+        "체중 감량 식단"
+      ],
+      "hashtags": [
+        "#이수현다이어트",
+        "#30kg감량",
+        "#공복유산소",
+        "#건강한다이어트",
+        "#체중감량",
+        "#다이어트식단",
+        "#근력운동",
+        "#영양표시"
+      ],
+      "sourceAttempts": [
+        {
+          "type": "direct",
+          "url": "https://www.inven.co.kr/board/webzine/2097/2722663?iskin=webzine",
+          "reachable": false,
+          "bodyVerified": false,
+          "sameTopic": true,
+          "synopsisVerified": false,
+          "reactionsVerified": true
+        },
+        {
+          "type": "official_article",
+          "url": "https://nwww.newsis.com/view/NISX20260902_0003773428",
+          "reachable": true,
+          "bodyVerified": true,
+          "sameTopic": true,
+          "synopsisVerified": true,
+          "reactionsVerified": true
+        }
+      ],
+      "officialEvidence": [
+        {
+          "organization": "질병관리청 국가건강정보포털",
+          "title": "비만",
+          "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6694",
+          "fact": "식사·운동·행동치료를 병행하고 개인 건강 상태에 맞는 현실적인 감량 목표를 세우도록 안내한다."
+        },
+        {
+          "organization": "질병관리청 국가건강정보포털",
+          "title": "비만 예방과 관리",
+          "url": "https://health.kdca.go.kr/healthinfo/biz/health/ntcnInfo/healthSourc/thtimtCntnts/thtimtCntntsView.do?thtimt_cntnts_sn=82",
+          "fact": "건강한 식습관과 운동, 생활습관 개선을 병행하는 지속 가능한 체중 관리를 설명한다."
+        },
+        {
+          "organization": "식품의약품안전처",
+          "title": "영양표시 확인 안내",
+          "url": "https://www.foodsafetykorea.go.kr/upload/20180629/nutrition/content/20250729.pdf",
+          "fact": "총 내용량과 열량, 당류 등 영양성분 표시를 실제 섭취량과 비교하는 방법을 제공한다."
+        }
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jogging_woman.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Jogging_woman.jpg",
+          "alt": "야외에서 유산소 운동을 하는 사람",
+          "placement": "공복 유산소 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Healthy_meal.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Healthy_meal.jpg",
+          "alt": "채소와 단백질이 포함된 균형 잡힌 식사",
+          "placement": "식단 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Weight_training.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Weight_training.jpg",
+          "alt": "근력 운동 장면",
+          "placement": "근육 유지 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nutrition_Facts_label.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Nutrition_Facts_label.jpg",
+          "alt": "식품 영양성분표",
+          "placement": "영양표시 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Weighing_scale.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Weighing_scale.jpg",
+          "alt": "체중 변화를 기록하는 체중계",
+          "placement": "유지 관리 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        }
+      ]
+    }
+  ],
+  "sourceRecoveryCandidates": [],
+  "candidateShortfall": [
+    {
+      "topicKey": "watch-1",
+      "title": "1억 9천을 은행에 넣어 놨더니",
+      "url": "https://www.82cook.com/entiz/read.php?num=4234898",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-2",
+      "title": "「명조: 워더링 웨이브」여우의 별자리 • 쇄명 캐릭터 플레이 (QHD)",
+      "url": "https://arca.live/b/live/181867490?p=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-3",
+      "title": "주작 같은 여사친의 결혼 썰",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1028824&vdate=h",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-4",
+      "title": "기본소득당 대단하네요 ㅋㅋㅋㅋㅋㅋ",
+      "url": "https://www.clien.net/service/board/park/19258111?od=T33&po=0&category=0&groupCd=clien_all",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-5",
+      "title": "[싱갤] 싱글벙글 윈도우 적폐 설정",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=459990&list_num=100&_dcbest=1&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-6",
+      "title": "펌) 민티 효과는 대단했다!!",
+      "url": "https://www.ddanzi.com/free/893415802",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-7",
+      "title": "현재 댓글창 불타고있는 웹툰",
+      "url": "https://www.dogdrip.net/dogdrip/722807026?sort_index=popular&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-8",
+      "title": "MC딩동 폭행사건",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/mc딩동-폭행사건-9310073",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-9",
+      "title": "고도비만 스모선수의 결혼 전 / 후.jpg",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10287958451",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-10",
+      "title": "日 언론 \"후퇴하는 일본과 같은 길을 걸어가지 않은 한국\" 일본반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=politics&wr_id=192544",
+      "reason": "본문·첨부물 미확인"
+    }
+  ],
+  "sourceRecoveryRun": {
+    "executed": false,
+    "recoveredTopicKeys": [],
+    "checkedAt": "2026-09-04T03:04:46.750Z"
+  }
+}
