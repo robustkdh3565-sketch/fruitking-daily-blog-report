@@ -1,0 +1,542 @@
+{
+  "reportDate": "2026-09-05",
+  "checkedAt": "2026-09-05T12:00:00+09:00",
+  "snapshotCount": 1,
+  "assetManifest": "data/2026-08-30-sources.json",
+  "pipelinePolicy": {
+    "publicationHourKst": 12,
+    "confirmedSnapshotRule": "previous-day-11-15-19",
+    "previousDayRuleEffectiveFrom": "2026-08-31",
+    "morningSnapshotUse": "same-day-breaking-candidates-only",
+    "minimumWatchlist": 10,
+    "stopOnValidationFailure": true,
+    "preventRepeatedTopicDays": 7
+  },
+  "researchLineage": [
+    {
+      "name": "커뮤니티 리서치 2026-09-05",
+      "result": "당일 순위·조회·댓글 후보를 확인했으나 원문 본문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/keyword-status/reports/2026-09-05.html"
+    },
+    {
+      "name": "건강·방송 주제 리서치 2026-09-05",
+      "result": "당일 방송 주제와 건강 연결 후보를 확인했으나 최종 원문 검증 전",
+      "url": "https://robustkdh3565-sketch.github.io/broadcast-topic-research/reports/2026-09-05.html"
+    },
+    {
+      "name": "전일 게시물 ID 스냅샷",
+      "result": "동일 게시물 ID의 전후 값이 있을 때만 조회 증가 속도를 사용하며 미확인 값은 0으로 바꾸지 않음",
+      "url": "https://github.com/robustkdh3565-sketch/keyword-status/tree/main/snapshots"
+    }
+  ],
+  "likelyTopicPolicy": {
+    "threshold": 75,
+    "weights": {
+      "verifiedMomentum": 30,
+      "celebrityOrBroadcast": 20,
+      "specificNumberOrBeforeAfter": 15,
+      "immediateActionOrUrgency": 15,
+      "searchExpansion": 10,
+      "fruitkingConnection": 10
+    },
+    "note": "75점 이상만 뜰 것 같은 주제로 표시하며 최종 3개 선정 점수와 합산하지 않는다."
+  },
+  "watchlistPredictionInputs": [
+    {
+      "priority": 1,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 2,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 3,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 4,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 5,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 6,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 7,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 8,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 9,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    },
+    {
+      "priority": 10,
+      "signals": {
+        "verifiedMomentum": 0,
+        "celebrityOrBroadcast": 0,
+        "specificNumberOrBeforeAfter": 0,
+        "immediateActionOrUrgency": 0,
+        "searchExpansion": 0,
+        "fruitkingConnection": 0
+      },
+      "reason": "원문 검증 전이므로 뜰 것 같은 주제 점수를 부여하지 않음"
+    }
+  ],
+  "watchlistSourceAudits": [
+    {
+      "priority": 1,
+      "publishedAt": "2026-09-04T05:58:16.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 17,071회 확인, 본문 미검증"
+    },
+    {
+      "priority": 2,
+      "publishedAt": "2026-09-03T10:18:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 7,758회 확인, 본문 미검증"
+    },
+    {
+      "priority": 3,
+      "publishedAt": "2026-09-04T21:48:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 16,011회 확인, 본문 미검증"
+    },
+    {
+      "priority": 4,
+      "publishedAt": "2026-09-04T08:02:20.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 8,684회 확인, 본문 미검증"
+    },
+    {
+      "priority": 5,
+      "publishedAt": "2026-09-04T16:20:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 28,464회 확인, 본문 미검증"
+    },
+    {
+      "priority": 6,
+      "publishedAt": "2026-09-04T15:00:39.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 12,233회 확인, 본문 미검증"
+    },
+    {
+      "priority": 7,
+      "publishedAt": "2026-09-05T01:07:08.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회수 미수집, 본문 미검증"
+    },
+    {
+      "priority": 8,
+      "publishedAt": "2026-09-04T00:33:55.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 22,998회 확인, 본문 미검증"
+    },
+    {
+      "priority": 9,
+      "publishedAt": "2026-09-04T07:58:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 670,000회 확인, 본문 미검증"
+    },
+    {
+      "priority": 10,
+      "publishedAt": "2026-09-05T00:29:00.000Z",
+      "sourceBodyVerified": false,
+      "metricsStatus": "조회 3,727회 확인, 본문 미검증"
+    }
+  ],
+  "selectedSourceAudits": [
+    {
+      "topicKey": "sbs-functional-dyspepsia-7332",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635243",
+      "sourceBodyVerified": true,
+      "publishedAt": "2026-09-04T09:00:00+09:00",
+      "excerptFacts": [
+        "SBS 공식 페이지는 좋은아침 7332회의 방송일을 2026년 9월 4일로 표시한다.",
+        "공식 소개는 기능성 소화불량, 이연경·문영미의 증상, 요구르트 라이스페이퍼 떡을 명시한다."
+      ]
+    }
+  ],
+  "missedCandidates": [
+    {
+      "priority": 1,
+      "type": "원문 검증 대기",
+      "channel": "82cook",
+      "title": "나르시스트 친구 가족이랑 여행 갔다가 완전 똥 밟았네요.",
+      "url": "https://www.82cook.com/entiz/read.php?num=4235423",
+      "topic": "나르시스트 친구 가족이랑 여행 갔다가 완전 똥 밟았네요.",
+      "summary": "82cook에서 조회 17,071회, 댓글 132로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 2,
+      "type": "원문 검증 대기",
+      "channel": "arca",
+      "title": "꿈을 이룬 소꿉친구",
+      "url": "https://arca.live/b/live/181905626?p=1",
+      "topic": "꿈을 이룬 소꿉친구",
+      "summary": "arca에서 조회 7,758회, 댓글 49로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 3,
+      "type": "원문 검증 대기",
+      "channel": "bobae",
+      "title": "대홍수 난 네팔에 간 한국인 산악인 근황",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1029091&vdate=h",
+      "topic": "대홍수 난 네팔에 간 한국인 산악인 근황",
+      "summary": "bobae에서 조회 16,011회, 댓글 25로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 4,
+      "type": "원문 검증 대기",
+      "channel": "clien",
+      "title": "유투브 프리미엄 축출되었네요",
+      "url": "https://www.clien.net/service/board/park/19258496",
+      "topic": "유투브 프리미엄 축출되었네요",
+      "summary": "clien에서 조회 8,684회, 댓글 34로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 5,
+      "type": "원문 검증 대기",
+      "channel": "dcinside",
+      "title": "[브갤] 요즘 남녀들이 서로 사랑하지 못하는 이유.JPG",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=460262&list_num=100&_dcbest=1&page=1",
+      "topic": "[브갤] 요즘 남녀들이 서로 사랑하지 못하는 이유",
+      "summary": "dcinside에서 조회 28,464회, 댓글 514로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 6,
+      "type": "원문 검증 대기",
+      "channel": "ddanzi",
+      "title": "추미애도지사 입장문",
+      "url": "https://www.ddanzi.com/index.php?mid=free&page=1&document_srl=893544161&statusList=BEST%2CHOTBEST%2CBESTAC%2CHOTBESTAC",
+      "topic": "추미애도지사 입장문",
+      "summary": "ddanzi에서 조회 12,233회, 댓글 11로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 7,
+      "type": "원문 검증 대기",
+      "channel": "dogdrip",
+      "title": "남편에게 장기이식 거부한 아내",
+      "url": "https://www.dogdrip.net/dogdrip/723047332?sort_index=popular&page=1",
+      "topic": "남편에게 장기이식 거부한 아내",
+      "summary": "dogdrip에서 조회수 미수집, 댓글 295로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 8,
+      "type": "원문 검증 대기",
+      "channel": "etoland",
+      "title": "용궁사 타투녀 해명",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/용궁사-타투녀-해명-9312149",
+      "topic": "용궁사 타투녀 해명",
+      "summary": "etoland에서 조회 22,998회, 댓글 132로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 9,
+      "type": "원문 검증 대기",
+      "channel": "fmkorea",
+      "title": "즉흥여행인척 하지마라",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10295825527",
+      "topic": "즉흥여행인척 하지마라",
+      "summary": "fmkorea에서 조회 670,000회, 댓글 640로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    },
+    {
+      "priority": 10,
+      "type": "원문 검증 대기",
+      "channel": "gasengi",
+      "title": "日 언론 \"한국은 계속 세계적 히트, 일본 쿨재팬은 망함\" 일본반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=history02&wr_id=114001",
+      "topic": "日 언론 \"한국은 계속 세계적 히트, 일본 쿨재팬은 망함\" 일본반응",
+      "summary": "gasengi에서 조회 3,727회, 댓글 21로 확인된 당일 후보다. 제목과 수치만 확인됐으며 본문 사실과 건강 연결은 아직 검증하지 않았다.",
+      "why": "원문 본문·첨부물과 건강 정보의 직접 연결을 끝까지 확인하지 못해 오늘 원고로 선정하지 않음"
+    }
+  ],
+  "candidates": [
+    {
+      "topicKey": "sbs-functional-dyspepsia-7332",
+      "community": "SBS 좋은아침",
+      "sourceKind": "broadcast",
+      "broadcaster": "SBS",
+      "programName": "좋은아침",
+      "episode": "7332회",
+      "broadcastDate": "2026-09-04",
+      "title": "위험천만한 위를 구하라!",
+      "optimizedTitle": "내시경은 정상인데 계속 더부룩하다면? 기능성 소화불량을 확인하는 법",
+      "searchIntent": "기능성 소화불량 증상과 내시경 검사, 속쓰림·신물, 위에 부담 적은 식사를 찾는 정보 검색",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635243",
+      "publishedAt": "2026-09-04T09:00:00+09:00",
+      "ageHours": 27.5,
+      "viewsCollected": false,
+      "views": null,
+      "comments": null,
+      "viewVelocity": null,
+      "velocityObserved": false,
+      "snapshotRefs": [],
+      "platformRank": 1,
+      "viewVelocityPercentile": 0,
+      "viewCountPercentile": 0,
+      "platformRankPercentile": 1,
+      "engagementPercentile": 0,
+      "topicSignalPercentile": 0.95,
+      "engagementEvidenceType": "전일 공식 건강·방송 원문 후보 1위",
+      "sourceBodyVerified": true,
+      "synopsisVerified": true,
+      "factOpinionSeparated": true,
+      "reactionsVerified": true,
+      "synopsis": "SBS 좋은아침 7332회 공식 다시보기는 2026년 9월 4일 방송으로, 기능성 소화불량, 내시경이 정상이어도 지속되는 불편, 이연경의 신물과 문영미의 속쓰림·소화불량, 요구르트 라이스페이퍼 떡을 다룬다고 명시한다. 글은 방송 줄거리와 공공기관의 소화불량·역류·영양표시 정보를 구분한다.",
+      "reactions": [
+        "SBS 공식 회차·방송일·출연 인물 확인",
+        "기능성 소화불량과 요구르트 디저트 소개 확인",
+        "방송 조회수 비공개로 추정하지 않음"
+      ],
+      "directHealthLinkScore": 8,
+      "titleIntroMatchScore": 4,
+      "bodyReconnectScore": 3,
+      "searchSolutionScore": 10,
+      "officialEvidenceScore": 5,
+      "fruitkingUspScore": 5,
+      "uspAngle": "요구르트·과일을 치료제가 아닌 개인 반응과 당류·섭취량 확인의 식생활로 연결",
+      "articleFile": "articles/2026-09-05-01-functional-dyspepsia.md",
+      "keywords": [
+        "기능성 소화불량",
+        "내시경 정상 소화불량",
+        "속쓰림 신물",
+        "위 건강 식사"
+      ],
+      "hashtags": [
+        "#기능성소화불량",
+        "#소화불량",
+        "#속쓰림",
+        "#위식도역류",
+        "#위내시경",
+        "#위건강",
+        "#요구르트영양표시",
+        "#좋은아침"
+      ],
+      "sourceAttempts": [
+        {
+          "type": "direct",
+          "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635243",
+          "reachable": true,
+          "bodyVerified": true,
+          "sameTopic": true,
+          "synopsisVerified": true,
+          "reactionsVerified": true
+        }
+      ],
+      "officialEvidence": [
+        {
+          "organization": "질병관리청 국가건강정보포털",
+          "title": "소화불량",
+          "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6263",
+          "fact": "기능성 소화불량의 증상, 진단 접근과 식이·생활 관리의 개인차를 설명한다."
+        },
+        {
+          "organization": "질병관리청 국가건강정보포털",
+          "title": "위식도역류질환",
+          "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2057",
+          "fact": "신물과 속쓰림을 일으키는 역류의 원인과 진단·치료 원칙을 안내한다."
+        },
+        {
+          "organization": "식품의약품안전처 식품안전나라",
+          "title": "가공식품 영양성분표 활용법-요구르트",
+          "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs420&menu_grp=MENU_NEW03&menu_no=3714&ntctxt_no=1069323",
+          "fact": "요구르트의 총 열량, 실제 섭취량, 지방과 당류를 영양표시에서 비교하도록 안내한다."
+        }
+      ],
+      "images": [
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stomach_diagram.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Stomach_diagram.png",
+          "alt": "위와 식도의 구조",
+          "placement": "기능성 소화불량 설명 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gastroscopy.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Gastroscopy.jpg",
+          "alt": "위내시경 검사 장비",
+          "placement": "내시경 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yogurt.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Yogurt.jpg",
+          "alt": "플레인 요구르트",
+          "placement": "디저트 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nutrition_Facts_label.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Nutrition_Facts_label.jpg",
+          "alt": "영양성분표",
+          "placement": "영양표시 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        },
+        {
+          "directUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Food_diary.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Food_diary.jpg",
+          "alt": "식사와 증상을 기록하는 노트",
+          "placement": "기록표 문단 아래",
+          "license": "Wikimedia Commons 출처·라이선스 확인"
+        }
+      ]
+    }
+  ],
+  "sourceRecoveryCandidates": [],
+  "candidateShortfall": [
+    {
+      "topicKey": "watch-1",
+      "title": "나르시스트 친구 가족이랑 여행 갔다가 완전 똥 밟았네요.",
+      "url": "https://www.82cook.com/entiz/read.php?num=4235423",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-2",
+      "title": "꿈을 이룬 소꿉친구",
+      "url": "https://arca.live/b/live/181905626?p=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-3",
+      "title": "대홍수 난 네팔에 간 한국인 산악인 근황",
+      "url": "https://www.bobaedream.co.kr/view?code=best&No=1029091&vdate=h",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-4",
+      "title": "유투브 프리미엄 축출되었네요",
+      "url": "https://www.clien.net/service/board/park/19258496",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-5",
+      "title": "[브갤] 요즘 남녀들이 서로 사랑하지 못하는 이유.JPG",
+      "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=460262&list_num=100&_dcbest=1&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-6",
+      "title": "추미애도지사 입장문",
+      "url": "https://www.ddanzi.com/index.php?mid=free&page=1&document_srl=893544161&statusList=BEST%2CHOTBEST%2CBESTAC%2CHOTBESTAC",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-7",
+      "title": "남편에게 장기이식 거부한 아내",
+      "url": "https://www.dogdrip.net/dogdrip/723047332?sort_index=popular&page=1",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-8",
+      "title": "용궁사 타투녀 해명",
+      "url": "https://www.etoland.co.kr/hit/etohumor07/view/용궁사-타투녀-해명-9312149",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-9",
+      "title": "즉흥여행인척 하지마라",
+      "url": "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10295825527",
+      "reason": "본문·첨부물 미확인"
+    },
+    {
+      "topicKey": "watch-10",
+      "title": "日 언론 \"한국은 계속 세계적 히트, 일본 쿨재팬은 망함\" 일본반응",
+      "url": "https://www.gasengi.com/main/board.php?bo_table=history02&wr_id=114001",
+      "reason": "본문·첨부물 미확인"
+    }
+  ],
+  "sourceRecoveryRun": {
+    "executed": false,
+    "recoveredTopicKeys": [],
+    "checkedAt": "2026-09-05T03:34:43.608Z"
+  }
+}

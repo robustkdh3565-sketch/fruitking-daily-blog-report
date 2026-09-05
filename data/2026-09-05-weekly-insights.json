@@ -1,0 +1,326 @@
+{
+  "reportDate": "2026-09-05",
+  "communityDays": 7,
+  "healthDays": 7,
+  "completeDays": 7,
+  "phase": "정식 최근 7일",
+  "keywords": [
+    {
+      "keyword": "체중 감량과 유지",
+      "terms": [
+        "체중",
+        "감량",
+        "다이어트",
+        "비만",
+        "마운자로",
+        "위고비"
+      ],
+      "hits": 6,
+      "days": 7,
+      "sources": 5,
+      "urls": [
+        "https://theqoo.net/hot/4330612152",
+        "https://www.fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10282143398",
+        "https://www.dogdrip.net/dogdrip/722644418?sort_index=popular&page=1"
+      ],
+      "score": 100,
+      "state": "● 유지",
+      "eventKeys": [
+        "theqoo.net/hot/4330612152",
+        "fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10282143398",
+        "dogdrip.net/dogdrip/722644418?sort_index=popular&page=1",
+        "fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10287958451",
+        "todayhumor.co.kr/board/view.php?table=humorbest&no=1797483",
+        "enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column"
+      ],
+      "changeReason": "누적 점수 100 유지"
+    },
+    {
+      "keyword": "생활 루틴과 자기관리",
+      "terms": [
+        "생활 루틴",
+        "생활 패턴",
+        "자기관리",
+        "수면",
+        "좌식"
+      ],
+      "hits": 6,
+      "days": 7,
+      "sources": 5,
+      "urls": [
+        "https://gall.dcinside.com/board/view/?id=dcbest&no=458478&list_num=100&_dcbest=1&page=1",
+        "https://pann.nate.com/talk/375602205",
+        "https://www.inven.co.kr/board/webzine/2097/2721950"
+      ],
+      "score": 100,
+      "state": "● 유지",
+      "eventKeys": [
+        "gall.dcinside.com/board/view/?id=dcbest&no=458478&list_num=100&_dcbest=1&page=1",
+        "pann.nate.com/talk/375602205",
+        "inven.co.kr/board/webzine/2097/2721950",
+        "gall.dcinside.com/board/view/?id=dcbest&no=459626&list_num=100&_dcbest=1&page=1",
+        "bbs.ruliweb.com/best/board/300143/read/76546777?orderby=regdate&range=24h&view=list&m=humor&t=hit",
+        "m.imbc.com/program/1002831100000100000"
+      ],
+      "changeReason": "누적 점수 100 유지"
+    },
+    {
+      "keyword": "통증과 위험 신호",
+      "terms": [
+        "통증",
+        "저림",
+        "목디스크",
+        "경추척수증",
+        "허리"
+      ],
+      "hits": 5,
+      "days": 7,
+      "sources": 5,
+      "urls": [
+        "https://www.82cook.com/entiz/read.php?bn=15&num=4233269",
+        "https://www.ppomppu.co.kr/zboard/view.php?id=humor&no=778824",
+        "https://theqoo.net/hot/4333581649"
+      ],
+      "score": 93,
+      "state": "▼ 하락",
+      "eventKeys": [
+        "82cook.com/entiz/read.php?bn=15&num=4233269",
+        "ppomppu.co.kr/zboard/view.php?id=humor&no=778824",
+        "theqoo.net/hot/4333581649",
+        "todayhumor.co.kr/board/view.php?table=humorbest&no=1797456",
+        "queen.co.kr/news/articleView.html?idxno=462271"
+      ],
+      "changeReason": "누적 점수 100→93"
+    },
+    {
+      "keyword": "근육과 노년 건강",
+      "terms": [
+        "근육",
+        "골절",
+        "골다공증",
+        "낙상"
+      ],
+      "hits": 3,
+      "days": 7,
+      "sources": 3,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/rankingsongs/22000634414",
+        "https://m.imbc.com/program/1000832100000100000",
+        "https://m.imbc.com/VOD/VodView?broadcastID=1000832104736100000&amp;progCode=1000832100000100000&amp;type=Prevod"
+      ],
+      "score": 89,
+      "state": "▲ 상승",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/rankingsongs/22000634414",
+        "m.imbc.com/program/1000832100000100000",
+        "m.imbc.com/VOD/VodView?broadcastID=1000832104736100000&amp;progCode=1000832100000100000&amp;type=Prevod"
+      ],
+      "changeReason": "누적 점수 75→89"
+    },
+    {
+      "keyword": "뇌 건강과 가족 간병",
+      "terms": [
+        "치매",
+        "뇌경색",
+        "간병",
+        "뇌 건강"
+      ],
+      "hits": 3,
+      "days": 7,
+      "sources": 3,
+      "urls": [
+        "https://m.imbc.com/program/1000832100000100000",
+        "https://enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column",
+        "https://m.imbc.com/VOD/VodView?broadcastID=1000832104734100000&amp;progCode=1000832100000100000&amp;type=Prevod"
+      ],
+      "score": 89,
+      "state": "● 유지",
+      "eventKeys": [
+        "m.imbc.com/program/1000832100000100000",
+        "enews.imbc.com/Tpl/Index?category=011000000&progcode=1003594100000100000&tplType=column",
+        "m.imbc.com/VOD/VodView?broadcastID=1000832104734100000&amp;progCode=1000832100000100000&amp;type=Prevod"
+      ],
+      "changeReason": "누적 점수 89 유지"
+    },
+    {
+      "keyword": "아침",
+      "terms": [
+        "아침"
+      ],
+      "dynamic": true,
+      "hits": 9,
+      "days": 7,
+      "sources": 9,
+      "urls": [
+        "https://www.etoland.co.kr/hit/etohumor07/view/990원-이케아-아침식사-실물-jpg-9297807",
+        "https://www.ddanzi.com/index.php?mid=free&page=1&document_srl=893163641&statusList=BEST%2CHOTBEST%2CBESTAC%2CHOTBESTAC",
+        "https://pann.nate.com/talk/375601538"
+      ],
+      "score": 88,
+      "state": "● 유지",
+      "eventKeys": [
+        "etoland.co.kr/hit/etohumor07/view/990원-이케아-아침식사-실물-jpg-9297807",
+        "ddanzi.com/index.php?mid=free&page=1&document_srl=893163641&statusList=BEST,HOTBEST,BESTAC,HOTBESTAC",
+        "pann.nate.com/talk/375601538",
+        "fmkorea.com/index.php?mid=best2&listStyle=list&document_srl=10297988829",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635243"
+      ],
+      "changeReason": "누적 점수 88 유지"
+    },
+    {
+      "keyword": "좋은아침",
+      "terms": [
+        "좋은아침"
+      ],
+      "dynamic": true,
+      "hits": 5,
+      "days": 7,
+      "sources": 5,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155"
+      ],
+      "score": 88,
+      "state": "▲ 상승",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635030",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635155",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635243"
+      ],
+      "changeReason": "누적 점수 80→88"
+    },
+    {
+      "keyword": "장 건강과 검사",
+      "terms": [
+        "대장",
+        "혈변",
+        "대장내시경",
+        "장 건강",
+        "식이섬유"
+      ],
+      "hits": 2,
+      "days": 7,
+      "sources": 2,
+      "urls": [
+        "https://theqoo.net/hot/4332514220",
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625"
+      ],
+      "score": 75,
+      "state": "● 유지",
+      "eventKeys": [
+        "theqoo.net/hot/4332514220",
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000634625"
+      ],
+      "changeReason": "누적 점수 75 유지"
+    },
+    {
+      "keyword": "수면마취",
+      "terms": [
+        "수면마취"
+      ],
+      "dynamic": true,
+      "hits": 3,
+      "days": 3,
+      "sources": 3,
+      "urls": [
+        "https://www.inven.co.kr/board/webzine/2097/2721950",
+        "https://gall.dcinside.com/board/view/?id=dcbest&no=459626&list_num=100&_dcbest=1&page=1",
+        "https://bbs.ruliweb.com/best/board/300143/read/76546777?orderby=regdate&range=24h&view=list&m=humor&t=hit"
+      ],
+      "score": 52,
+      "state": "▼ 하락",
+      "eventKeys": [
+        "inven.co.kr/board/webzine/2097/2721950",
+        "gall.dcinside.com/board/view/?id=dcbest&no=459626&list_num=100&_dcbest=1&page=1",
+        "bbs.ruliweb.com/best/board/300143/read/76546777?orderby=regdate&range=24h&view=list&m=humor&t=hit"
+      ],
+      "changeReason": "누적 점수 59→52"
+    },
+    {
+      "keyword": "요구르트와 유산균",
+      "terms": [
+        "요구르트",
+        "요거트",
+        "유산균",
+        "프로바이오틱스"
+      ],
+      "hits": 1,
+      "days": 2,
+      "sources": 1,
+      "urls": [
+        "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242"
+      ],
+      "score": 43,
+      "state": "NEW",
+      "eventKeys": [
+        "programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635242"
+      ],
+      "changeReason": "전일 분석에 없던 새 키워드"
+    }
+  ],
+  "themes": [
+    {
+      "core": "체중 감량과 유지",
+      "adjacent": [
+        "뇌 건강과 가족 간병"
+      ],
+      "title": "감량 숫자보다 오래 유지되는 식사 루틴",
+      "bridge": "감량 이슈를 중단 후 유지 행동으로 확장",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    },
+    {
+      "core": "생활 루틴과 자기관리",
+      "adjacent": [
+        "수면마취"
+      ],
+      "title": "하루를 무너뜨리는 생활 패턴부터 바꾸는 작은 습관",
+      "bridge": "공감형 생활 이슈를 실행 가능한 루틴으로 전환",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 3
+    },
+    {
+      "core": "통증과 위험 신호",
+      "adjacent": [
+        "저림",
+        "일상 동작 변화",
+        "진료 시점"
+      ],
+      "title": "온라인 통증 팁을 따라 하기 전에 볼 위험 신호",
+      "bridge": "즉시 실천 팁을 안전 확인 콘텐츠로 확장",
+      "origin": "편집 보완",
+      "evidenceCount": 0
+    },
+    {
+      "core": "근육과 노년 건강",
+      "adjacent": [
+        "뇌 건강과 가족 간병"
+      ],
+      "title": "중년 이후 살만 빼면 안 되는 이유",
+      "bridge": "감량과 노년 근육·뼈 관리를 연결",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    },
+    {
+      "core": "뇌 건강과 가족 간병",
+      "adjacent": [
+        "근육과 노년 건강",
+        "체중 감량과 유지"
+      ],
+      "title": "치매보다 먼저 가족이 확인해야 할 생활 변화",
+      "bridge": "인물 방송을 가족의 관찰·진료 질문으로 확장",
+      "origin": "리포트 동시 등장",
+      "evidenceCount": 1
+    }
+  ],
+  "uniqueEvents": 1237,
+  "generatedAt": "2026-09-05T03:34:49.307Z",
+  "previousSnapshot": "2026-09-04-weekly-insights.json"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-09-05",
+  "snapshotDate": "2026-09-04",
+  "generatedAt": "2026-09-05T03:34:44.813Z",
+  "records": [
+    {
+      "topicKey": "sbs-functional-dyspepsia-7332",
+      "postId": "/programTemplate/amp/vod/goodmorning/22000635243",
+      "title": "위험천만한 위를 구하라!",
+      "url": "https://programs.sbs.co.kr/programTemplate/amp/vod/goodmorning/22000635243",
+      "publishedAt": "2026-09-04T09:00:00+09:00",
+      "sourceBodyVerified": true,
+      "excerptFacts": [
+        "SBS 공식 페이지는 좋은아침 7332회의 방송일을 2026년 9월 4일로 표시한다.",
+        "공식 소개는 기능성 소화불량, 이연경·문영미의 증상, 요구르트 라이스페이퍼 떡을 명시한다."
+      ],
+      "snapshotFiles": [],
+      "views": null,
+      "comments": null,
+      "reactions": null,
+      "rank": 1,
+      "evidenceHash": "52610f8eb7e3bc26f73d348ad3d2acd48037725463e90533aef2a4cf7c9eb438"
+    }
+  ]
+}
